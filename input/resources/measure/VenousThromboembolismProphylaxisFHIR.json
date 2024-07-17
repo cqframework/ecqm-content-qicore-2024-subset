@@ -1849,7 +1849,7 @@
   "version": "0.2.000",
   "name": "VenousThromboembolismProphylaxisFHIR",
   "title": "Venous Thromboembolism ProphylaxisFHIR",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2024-07-09T14:53:56+00:00",
   "publisher": "The Joint Commission",

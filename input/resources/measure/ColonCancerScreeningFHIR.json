@@ -1250,7 +1250,7 @@
   "version": "0.1.000",
   "name": "ColonCancerScreeningFHIR",
   "title": "Colorectal Cancer ScreeningFHIR",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2024-07-09T14:53:56+00:00",
   "publisher": "National Committee for Quality Assurance",

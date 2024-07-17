@@ -865,7 +865,7 @@
   "version": "0.9.000",
   "name": "DischargedonAntithromboticTherapyFHIR",
   "title": "Discharged on Antithrombotic TherapyFHIR",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2024-07-09T14:53:57+00:00",
   "publisher": "The Joint Commission",

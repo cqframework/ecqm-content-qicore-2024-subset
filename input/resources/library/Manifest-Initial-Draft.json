@@ -13,7 +13,7 @@
       },
       {
         "name" : "system-version",
-        "valueUri" : "http://loinc.org|2.7.4"
+        "valueUri" : "http://loinc.org|2.74"
       },
       {
         "name" : "activeOnly",

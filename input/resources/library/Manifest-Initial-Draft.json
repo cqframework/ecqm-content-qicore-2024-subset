@@ -23,11 +23,56 @@
         "name" : "includeDraft",
         "valueBoolean" : true
       }]
+    }, {
+      "resourceType": "Parameters",
+      "id" : "endpoints",
+      "parameter" : [{
+        "name": "artifactEndpointConfiguration",
+        "part": [{
+          "name" : "artifactRoute",
+          "valueUri" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1167|20220820"
+        }, {
+          "name" : "endpointUri",
+          "valueUri" : "https://example.org/fhir/"
+        }]
+      }, {
+        "name": "artifactEndpointConfiguration",
+        "part": [{
+          "name" : "artifactRoute",
+          "valueUri" : "http://cts.nlm.nih.gov/fhir/"
+        }, {
+          "name" : "endpointUri",
+          "valueUri" : "https://uat-cts.nlm.nih.gov/fhir/"
+        }]
+      }, {
+        "name": "artifactEndpointConfiguration",
+        "part": [{
+          "name" : "artifactRoute",
+          "valueUri" : "http://terminology.hl7.org/"
+        }, {
+          "name" : "endpointUri",
+          "valueUri" : "https://tx.fhir.org/r4/"
+        }]
+      }, {
+        "name": "artifactEndpointConfiguration",
+        "part": [{
+          "name" : "artifactRoute",
+          "valueUri" : "http://hl7.org/fhir/"
+        }, {
+          "name" : "endpointUri",
+          "valueUri" : "https://tx.fhir.org/r4/"
+        }]
+      }]
     }],
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters",
       "valueReference" : {
         "reference" : "#exp-params"
+      }
+    }, {
+      "url" : "http://hl7.org/fhir/StructureDefinition/cqf-endpointConfiguration",
+      "valueReference" : {
+        "reference" : "#endpoints"
       }
     }],
     "url" : "http://hl7.org/fhir/us/cqfmeasures/Library/ecqm-update-2024",

@@ -91,7 +91,7 @@
       "value": "http://www.hl7.org/Special/committees/cqi"
     } ]
   } ],
-  "description": "This library is an example final draft of a version manifest (also referred to as an expansion profile) that specifies expansion rules for a set of value sets used for an example set of EP/EC measures.",
+  "description": "This library is an example of a release version manifest (also referred to as an expansion profile) that specifies expansion rules for a set of value sets used for an example set of EP/EC and EH/CAH measures.",
   "useContext": [ {
     "code": {
       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -123,7 +123,7 @@
       "code": "US"
     } ]
   } ],
-  "purpose": "This library is defined to illustrate a Version Manifest in final draft status, as it would look at the end of an eCQM Annual Update cycle, approved on April 23rd, 2024. The latest available version of code systems used at that time is specified to provide stability for value set expansion during the testing and implementation phase. Terminology.HL7.org, in particular, was version 5.5.0 at the time, and FHIR code system versions are chosen from that release.",
+  "purpose": "This library is defined to illustrate a Version Manifest in active status as a release for the eCQM Annual Update cycle, approved on April 23rd, 2024. The latest available version of code systems used at that time is specified to provide stability for value set expansion during the testing and implementation phase. Terminology.HL7.org, in particular, was version 5.5.0 at the time, and FHIR code system versions are chosen from that release.",
   "approvalDate": "2024-04-23",
   "lastReviewDate": "2024-04-23",
   "relatedArtifact": [ {

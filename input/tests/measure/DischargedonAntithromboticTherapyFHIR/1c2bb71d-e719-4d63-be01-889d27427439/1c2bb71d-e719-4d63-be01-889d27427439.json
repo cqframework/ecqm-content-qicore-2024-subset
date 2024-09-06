@@ -1,0 +1,437 @@
+{
+  "resourceType": "Bundle",
+  "id": "6129132a02c62a011f2e61b4",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "https://madie.cms.gov/Patient/1c2bb71d-e719-4d63-be01-889d27427439",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1c2bb71d-e719-4d63-be01-889d27427439",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">DischargeHomeHospice <b>DENEXPASS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>29f41b75b21b90d293fcbaa4c71bd6e0</td></tr><tr><td>Date of birth</td><td><span>21 August 1994</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "1002-5",
+                  "display": "American Indian or Alaska Native",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "American Indian or Alaska Native"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2135-2",
+                  "display": "Hispanic or Latino",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Hispanic or Latino"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://bonnie-fhir.healthit.gov/",
+            "value": "6129132a02c62a011f2e61b4"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "family": "DENEXPass",
+            "given": [
+              "DischargeHomeHospice"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1994-08-21"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/1c2bb71d-e719-4d63-be01-889d27427439"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Encounter/07da5900-5474-4b26-9645-065bb7988e33",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "07da5900-5474-4b26-9645-065bb7988e33",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter",
+          "userSelected": true
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "32485007"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/1c2bb71d-e719-4d63-be01-889d27427439"
+        },
+        "period": {
+          "start": "2025-10-10T09:30:00.000+00:00",
+          "end": "2025-10-12T10:30:00.000+00:00"
+        },
+        "length": {
+          "value": 2,
+          "unit": "days"
+        },
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/3a339f72-29df-4daf-980c-7f13442af89b"
+            },
+            "use": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "code": "billing",
+                  "display": "Billing"
+                }
+              ]
+            },
+            "rank": 1
+          }
+        ],
+        "hospitalization": {
+          "dischargeDisposition": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "428361000124107",
+                "display": "Discharged to Home for Hospice Care"
+              }
+            ]
+          }
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/07da5900-5474-4b26-9645-065bb7988e33"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Condition/3a339f72-29df-4daf-980c-7f13442af89b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3a339f72-29df-4daf-980c-7f13442af89b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "2020-09",
+              "code": "111297002",
+              "display": "Nonparalytic stroke (disorder)",
+              "userSelected": true
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1c2bb71d-e719-4d63-be01-889d27427439"
+        },
+        "recordedDate": "2025-07-15T08:00:00.000+00:00"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/3a339f72-29df-4daf-980c-7f13442af89b"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Coverage/75fcc510-3598-426d-8c81-6169efd07fd3",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "75fcc510-3598-426d-8c81-6169efd07fd3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"
+          ]
+        },
+        "status": "active",
+        "beneficiary": {
+          "reference": "Patient/1c2bb71d-e719-4d63-be01-889d27427439"
+        },
+        "payor": [
+          {
+            "reference": "Organization/a43bad88-36a4-45b0-aacc-33cb5ba1989f"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Coverage/75fcc510-3598-426d-8c81-6169efd07fd3"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Organization/a43bad88-36a4-45b0-aacc-33cb5ba1989f",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a43bad88-36a4-45b0-aacc-33cb5ba1989f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "temp",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "21-3259825"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "pay",
+                "display": "Payer"
+              }
+            ]
+          }
+        ],
+        "name": "Blue Cross Blue Shield of Texas",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+1) 972-766-6900"
+          }
+        ],
+        "address": [
+          {
+            "use": "billing",
+            "type": "postal",
+            "line": [
+              "P.O. Box 660044"
+            ],
+            "city": "Dallas",
+            "state": "TX",
+            "postalCode": "75266-0044",
+            "country": "USA"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/a43bad88-36a4-45b0-aacc-33cb5ba1989f"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/MeasureReport/daec5f8b-02e7-41fb-a2e2-8be29fb41171",
+      "resource": {
+        "resourceType": "MeasureReport",
+        "id": "daec5f8b-02e7-41fb-a2e2-8be29fb41171",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Parameters",
+            "id": "78a9c7f6-1f33-4c7f-9960-834dc5bb607e-parameters",
+            "parameter": [
+              {
+                "name": "subject",
+                "valueString": "1c2bb71d-e719-4d63-be01-889d27427439"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-inputParameters",
+            "valueReference": {
+              "reference": "#78a9c7f6-1f33-4c7f-9960-834dc5bb607e-parameters"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+            "valueMarkdown": "Patient is 18 with Non-Elective Inpatient Encounter with principal diagnosis of ischemic stroke ends during MP discharged to home for hospice care"
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+            "valueBoolean": true
+          }
+        ],
+        "status": "complete",
+        "type": "individual",
+        "measure": "https://madie.cms.gov/Measure/DischargedonAntithromboticTherapyFHIR",
+        "period": {
+          "start": "2025-01-01",
+          "end": "2025-12-31"
+        },
+        "group": [
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 1
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator",
+                      "display": "Denominator"
+                    }
+                  ]
+                },
+                "count": 1
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator-exclusion",
+                      "display": "Denominator Exclusion"
+                    }
+                  ]
+                },
+                "count": 1
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "numerator",
+                      "display": "Numerator"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator-exception",
+                      "display": "Denominator Exception"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          }
+        ],
+        "evaluatedResource": [
+          {
+            "reference": "Patient/1c2bb71d-e719-4d63-be01-889d27427439"
+          },
+          {
+            "reference": "Encounter/07da5900-5474-4b26-9645-065bb7988e33"
+          },
+          {
+            "reference": "Condition/3a339f72-29df-4daf-980c-7f13442af89b"
+          },
+          {
+            "reference": "Coverage/75fcc510-3598-426d-8c81-6169efd07fd3"
+          },
+          {
+            "reference": "Organization/a43bad88-36a4-45b0-aacc-33cb5ba1989f"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MeasureReport/daec5f8b-02e7-41fb-a2e2-8be29fb41171"
+      }
+    }
+  ]
+}

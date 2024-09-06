@@ -1,0 +1,292 @@
+{
+  "resourceType": "Bundle",
+  "id": "363b28a9-e77d-4fee-aaaf-73ebb35bc57c",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "https://madie.cms.gov/Patient/06048f6c-05da-4332-bb27-698c73519cfd",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "06048f6c-05da-4332-bb27-698c73519cfd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "White"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2135-2",
+                  "display": "Hispanic or Latino"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Hispanic or Latino"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hospital.smarthealthit.org",
+            "value": "999999999"
+          }
+        ],
+        "name": [
+          {
+            "family": "Example",
+            "given": [
+              "Patient"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-01-01"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/06048f6c-05da-4332-bb27-698c73519cfd"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Encounter/5350d1ad-81c5-4cef-8729-9d26c3c098ca",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "5350d1ad-81c5-4cef-8729-9d26c3c098ca",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "183452005"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/06048f6c-05da-4332-bb27-698c73519cfd"
+        },
+        "period": {
+          "start": "2025-04-07T08:00:00.000Z",
+          "end": "2025-04-11T08:15:00.000Z"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/5350d1ad-81c5-4cef-8729-9d26c3c098ca"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Condition/f57249af-ae55-48eb-990c-ff5c25909684",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f57249af-ae55-48eb-990c-ff5c25909684",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E10.21",
+              "display": "Type 1 diabetes mellitus with diabetic nephropathy"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/06048f6c-05da-4332-bb27-698c73519cfd"
+        },
+        "onsetDateTime": "2010-01-02"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/f57249af-ae55-48eb-990c-ff5c25909684"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/MeasureReport/3f6e22f2-31ec-466e-a2a6-fa031b662cb8",
+      "resource": {
+        "resourceType": "MeasureReport",
+        "id": "3f6e22f2-31ec-466e-a2a6-fa031b662cb8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Parameters",
+            "id": "9620603d-cdf8-43f3-9308-620382732f91-parameters",
+            "parameter": [
+              {
+                "name": "subject",
+                "valueString": "06048f6c-05da-4332-bb27-698c73519cfd"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-inputParameters",
+            "valueReference": {
+              "reference": "#9620603d-cdf8-43f3-9308-620382732f91-parameters"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+            "valueMarkdown": "IP encounter with diagnosis of diabetes onset date before admission, no abatement date. Meets denominator criteria."
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+            "valueBoolean": true
+          }
+        ],
+        "status": "complete",
+        "type": "individual",
+        "measure": "https://madie.cms.gov/Measure/HospitalHarmHyperglycemiainHospitalizedPatientsFHIR",
+        "period": {
+          "start": "2025-01-01",
+          "end": "2025-12-31"
+        },
+        "group": [
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 1
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator",
+                      "display": "Denominator"
+                    }
+                  ]
+                },
+                "count": 1
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator-exclusion",
+                      "display": "Denominator Exclusion"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "numerator",
+                      "display": "Numerator"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "denominator-observation",
+                      "display": "DenominatorObservation"
+                    }
+                  ]
+                },
+                "count": 3
+              }
+            ]
+          }
+        ],
+        "evaluatedResource": [
+          {
+            "reference": "Patient/06048f6c-05da-4332-bb27-698c73519cfd"
+          },
+          {
+            "reference": "Encounter/5350d1ad-81c5-4cef-8729-9d26c3c098ca"
+          },
+          {
+            "reference": "Condition/f57249af-ae55-48eb-990c-ff5c25909684"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MeasureReport/3f6e22f2-31ec-466e-a2a6-fa031b662cb8"
+      }
+    }
+  ]
+}

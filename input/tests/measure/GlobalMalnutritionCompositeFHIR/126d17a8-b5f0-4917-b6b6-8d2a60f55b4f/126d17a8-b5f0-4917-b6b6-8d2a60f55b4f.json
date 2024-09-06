@@ -1,0 +1,736 @@
+{
+  "resourceType": "Bundle",
+  "id": "65AfterStart",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "https://madie.cms.gov/Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "126d17a8-b5f0-4917-b6b6-8d2a60f55b4f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">65AfterStart, Screened Not at risk Assessed Severely Malnourished Diagnosed Care Plan, <b>mo1111d4p100 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>65AfterStart</td></tr><tr><td>Date of birth</td><td><span>14 May 1950</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2028-9",
+                  "display": "Asian",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Asian"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Not Hispanic or Latino"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://madie.cms.gov/",
+            "value": "65AfterStart"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "65AfterStart",
+            "family": "IPPFAIL",
+            "given": [
+              "65AfterStartIPPFAIL"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1961-02-04",
+        "address": [
+          {
+            "text": "65AfterStart, Screened Not at risk Assessed Severely Malnourished Diagnosed Care Plan, ID=65AfterStart, DOB: 14 May 1950"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Encounter/2b2498ec-ab2c-4252-b365-ba3103024b04",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "2b2498ec-ab2c-4252-b365-ba3103024b04",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "183452005"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "period": {
+          "start": "2026-02-01T08:00:00.000Z",
+          "end": "2026-02-07T08:15:00.000Z"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/2b2498ec-ab2c-4252-b365-ba3103024b04"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Condition/8babd7c6-d699-43d7-8532-1aeb8fcc32df",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8babd7c6-d699-43d7-8532-1aeb8fcc32df",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active",
+              "userSelected": true
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed",
+              "userSelected": true
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis",
+                "userSelected": true
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "190606006",
+              "display": "Moderate protein energy malnutrition (disorder)",
+              "userSelected": true
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "onsetPeriod": {
+          "start": "2026-02-01T08:00:00.000+00:00"
+        },
+        "recordedDate": "2026-02-01T11:00:00.000+00:00"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/8babd7c6-d699-43d7-8532-1aeb8fcc32df"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Observation/231d24cc-af06-4eff-9f32-91f5207ab815",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "231d24cc-af06-4eff-9f32-91f5207ab815",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98967-3",
+              "display": "Nutritional Risk Screening 2002 panel",
+              "userSelected": true
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "effectiveDateTime": "2026-02-01T09:00:00.000+00:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "129689002",
+              "display": "At risk for nutritional problem (finding)",
+              "userSelected": true
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/231d24cc-af06-4eff-9f32-91f5207ab815"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Observation/8cb8fa51-d6d3-4f73-8742-9b326292483d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8cb8fa51-d6d3-4f73-8742-9b326292483d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-observation"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey",
+                "display": "Survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75282-4",
+              "display": "Nutrition assessment panel",
+              "userSelected": true
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "effectiveDateTime": "2026-02-01T10:00:00.000+00:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "102635008",
+              "display": "Acute nutritional deficiency (finding)",
+              "userSelected": true
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/8cb8fa51-d6d3-4f73-8742-9b326292483d"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Procedure/a566394e-893f-4d7d-a5cc-497b5b765bc4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a566394e-893f-4d7d-a5cc-497b5b765bc4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-recorded",
+            "valueDateTime": "2026-02-01T11:30:00.000Z"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "306165000",
+              "display": "Referral to hospital-based dietetics service (procedure)"
+            }
+          ],
+          "text": "Referral to hospital-based dietetics service (procedure)"
+        },
+        "subject": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "encounter": {
+          "reference": "Encounter/65AfterStartIPPFAIL"
+        },
+        "performedPeriod": {
+          "start": "2026-02-01T11:30:00.000Z",
+          "end": "2026-02-07T08:15:00.000Z"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Procedure/a566394e-893f-4d7d-a5cc-497b5b765bc4"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Procedure/5de03a40-bef7-4c45-999f-09bdb87326d6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5de03a40-bef7-4c45-999f-09bdb87326d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-procedure"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-recorded",
+            "valueDateTime": "2025-02-02T11:30:00.000Z"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "413315001",
+              "display": "Nutrition/feeding management (regime/therapy)"
+            }
+          ],
+          "text": "Nutrition/feeding management (regime/therapy)"
+        },
+        "subject": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "encounter": {
+          "reference": "Encounter/65AfterStartIPPFAIL"
+        },
+        "performedPeriod": {
+          "start": "2026-02-01T11:30:00.000Z",
+          "end": "2026-02-07T08:15:00.000Z"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Procedure/5de03a40-bef7-4c45-999f-09bdb87326d6"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Coverage/d98eb1ae-d909-4ce6-beba-17e65c6b2044",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "d98eb1ae-d909-4ce6-beba-17e65c6b2044",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "https://nahdo.org/sopt",
+              "version": "9.2",
+              "code": "11",
+              "display": "Medicare Managed Care (Includes Medicare Advantage Plans)"
+            }
+          ]
+        },
+        "beneficiary": {
+          "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+        },
+        "period": {
+          "start": "2024-10-01T00:00:00+00:00"
+        },
+        "payor": [
+          {
+            "reference": "Organization/0d4525c2-8f98-4d64-910e-e592ea002350"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Coverage/d98eb1ae-d909-4ce6-beba-17e65c6b2044"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Organization/0d4525c2-8f98-4d64-910e-e592ea002350",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "0d4525c2-8f98-4d64-910e-e592ea002350",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "temp",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "21-3259825"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "pay",
+                "display": "Payer"
+              }
+            ]
+          }
+        ],
+        "name": "Blue Cross Blue Shield of Texas",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+1) 972-766-6900"
+          }
+        ],
+        "address": [
+          {
+            "use": "billing",
+            "type": "postal",
+            "line": [
+              "P.O. Box 660044"
+            ],
+            "city": "Dallas",
+            "state": "TX",
+            "postalCode": "75266-0044",
+            "country": "USA"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/0d4525c2-8f98-4d64-910e-e592ea002350"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/MeasureReport/75b5cb25-2cd4-4484-88ce-28e5adabb480",
+      "resource": {
+        "resourceType": "MeasureReport",
+        "id": "75b5cb25-2cd4-4484-88ce-28e5adabb480",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Parameters",
+            "id": "53ea58fd-e7ee-4d6a-9859-b750a7db65b7-parameters",
+            "parameter": [
+              {
+                "name": "subject",
+                "valueString": "126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-inputParameters",
+            "valueReference": {
+              "reference": "#53ea58fd-e7ee-4d6a-9859-b750a7db65b7-parameters"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+            "valueMarkdown": "Turns 65 after start of encounter"
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+            "valueBoolean": true
+          }
+        ],
+        "status": "complete",
+        "type": "individual",
+        "measure": "https://madie.cms.gov/Measure/GlobalMalnutritionCompositeFHIR",
+        "period": {
+          "start": "2026-01-01",
+          "end": "2026-12-31"
+        },
+        "group": [
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "measure-population",
+                      "display": "Measure Population"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          },
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "measure-population",
+                      "display": "Measure Population"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          },
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "measure-population",
+                      "display": "Measure Population"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          },
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "measure-population",
+                      "display": "Measure Population"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          },
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "measure-population",
+                      "display": "Measure Population"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          },
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 0
+              },
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "measure-population",
+                      "display": "Measure Population"
+                    }
+                  ]
+                },
+                "count": 0
+              }
+            ]
+          }
+        ],
+        "evaluatedResource": [
+          {
+            "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f"
+          },
+          {
+            "reference": "Encounter/2b2498ec-ab2c-4252-b365-ba3103024b04"
+          },
+          {
+            "reference": "Condition/8babd7c6-d699-43d7-8532-1aeb8fcc32df"
+          },
+          {
+            "reference": "Observation/231d24cc-af06-4eff-9f32-91f5207ab815"
+          },
+          {
+            "reference": "Observation/8cb8fa51-d6d3-4f73-8742-9b326292483d"
+          },
+          {
+            "reference": "Procedure/a566394e-893f-4d7d-a5cc-497b5b765bc4"
+          },
+          {
+            "reference": "Procedure/5de03a40-bef7-4c45-999f-09bdb87326d6"
+          },
+          {
+            "reference": "Coverage/d98eb1ae-d909-4ce6-beba-17e65c6b2044"
+          },
+          {
+            "reference": "Organization/0d4525c2-8f98-4d64-910e-e592ea002350"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MeasureReport/75b5cb25-2cd4-4484-88ce-28e5adabb480"
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "resourceType": "Bundle",
+  "id": "63ec0966ccb3770120fe9c3c",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "https://madie.cms.gov/Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "94a4aad0-b272-4d14-a4e9-a02b5276b074",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">HRSBP_relevantPeriod <b>COMBO1 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>647b828a576e8c34eaa21fd1cdb85d1e5f291be13e6a5c34a9fc817d4466c0f5</td></tr><tr><td>Date of birth</td><td><span>15 June 1956</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2054-5",
+                  "display": "Black or African American",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Black or African American"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Not Hispanic or Latino"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://bonnie-fhir.healthit.gov/",
+            "value": "63ec0966ccb3770120fe9c3c"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "family": "HeartRateAndSystolicBPPass",
+            "given": [
+              "HR5MinsBP24HrsAfterStartOfAdmit"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1956-06-15"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Encounter/0dc59ca5-1c87-49ac-bb59-418eefe2ff33",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "0dc59ca5-1c87-49ac-bb59-418eefe2ff33",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter",
+          "userSelected": true
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "183452005"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+        },
+        "period": {
+          "start": "2026-06-29T08:10:00.000+00:00",
+          "end": "2026-06-30T15:15:00.000+00:00"
+        },
+        "length": {
+          "value": 1,
+          "unit": "days"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/0dc59ca5-1c87-49ac-bb59-418eefe2ff33"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Coverage/1d4532a9-3e49-42d8-95fc-d01c305627ba",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "1d4532a9-3e49-42d8-95fc-d01c305627ba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "https://nahdo.org/sopt",
+              "version": "1.0.1",
+              "code": "1",
+              "display": "Medicare payer",
+              "userSelected": true
+            }
+          ]
+        },
+        "beneficiary": {
+          "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+        },
+        "payor": [
+          {
+            "reference": "Organization/2cb4a2c1-d78c-40e4-b1f3-bebddc213d4c"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Coverage/1d4532a9-3e49-42d8-95fc-d01c305627ba"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Observation/4e61850f-4a24-485a-853d-83e691f1e70c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4e61850f-4a24-485a-853d-83e691f1e70c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/heartrate"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs",
+                "userSelected": true
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+        },
+        "effectiveDateTime": "2026-06-29T10:10:00.000+00:00",
+        "valueQuantity": {
+          "value": 100,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/4e61850f-4a24-485a-853d-83e691f1e70c"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Observation/e551ef36-4614-4fb8-bb0a-862dad24aa82",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e551ef36-4614-4fb8-bb0a-862dad24aa82",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/heartrate"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs",
+                "userSelected": true
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+        },
+        "effectiveDateTime": "2026-06-29T20:10:00.000+00:00",
+        "valueQuantity": {
+          "value": 96,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/e551ef36-4614-4fb8-bb0a-862dad24aa82"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Organization/2cb4a2c1-d78c-40e4-b1f3-bebddc213d4c",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "2cb4a2c1-d78c-40e4-b1f3-bebddc213d4c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "temp",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "21-3259825"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "pay",
+                "display": "Payer"
+              }
+            ]
+          }
+        ],
+        "name": "Blue Cross Blue Shield of Texas",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+1) 972-766-6900"
+          }
+        ],
+        "address": [
+          {
+            "use": "billing",
+            "type": "postal",
+            "line": [
+              "P.O. Box 660044"
+            ],
+            "city": "Dallas",
+            "state": "TX",
+            "postalCode": "75266-0044",
+            "country": "USA"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/2cb4a2c1-d78c-40e4-b1f3-bebddc213d4c"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Observation/10d41a26-9551-4a0d-b99f-1b72a058e61e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "10d41a26-9551-4a0d-b99f-1b72a058e61e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bp"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+        },
+        "effectiveDateTime": "2026-06-29T08:15:00.000+00:00",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 140,
+              "unit": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 80,
+              "unit": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/10d41a26-9551-4a0d-b99f-1b72a058e61e"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Practitioner/0bfabbc1-5f91-4d87-a762-e89443f604bc",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "0bfabbc1-5f91-4d87-a762-e89443f604bc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "123456"
+          }
+        ],
+        "name": [
+          {
+            "family": "Evil",
+            "prefix": [
+              "Dr"
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/0bfabbc1-5f91-4d87-a762-e89443f604bc"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/MeasureReport/8c7034aa-1a15-4c9a-9394-5111f18fa6b9",
+      "resource": {
+        "resourceType": "MeasureReport",
+        "id": "8c7034aa-1a15-4c9a-9394-5111f18fa6b9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Parameters",
+            "id": "4db413d1-f0f5-449d-a85f-39730bf1577e-parameters",
+            "parameter": [
+              {
+                "name": "subject",
+                "valueString": "94a4aad0-b272-4d14-a4e9-a02b5276b074"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-inputParameters",
+            "valueReference": {
+              "reference": "#4db413d1-f0f5-449d-a85f-39730bf1577e-parameters"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+            "valueMarkdown": "Enc. ends last day of MP (6/30), Systolic BP taken 5 mins after admit; heart rate evaluated 2 hrs after admit; heart rate taken at discharge (24 hrs after admit)"
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+            "valueBoolean": true
+          }
+        ],
+        "status": "complete",
+        "type": "individual",
+        "measure": "https://madie.cms.gov/Measure/HybridHospitalWideMortalityFHIR",
+        "period": {
+          "start": "2025-07-01",
+          "end": "2026-06-30"
+        },
+        "group": [
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "evaluatedResource": [
+          {
+            "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074"
+          },
+          {
+            "reference": "Encounter/0dc59ca5-1c87-49ac-bb59-418eefe2ff33"
+          },
+          {
+            "reference": "Coverage/1d4532a9-3e49-42d8-95fc-d01c305627ba"
+          },
+          {
+            "reference": "Observation/4e61850f-4a24-485a-853d-83e691f1e70c"
+          },
+          {
+            "reference": "Observation/e551ef36-4614-4fb8-bb0a-862dad24aa82"
+          },
+          {
+            "reference": "Organization/2cb4a2c1-d78c-40e4-b1f3-bebddc213d4c"
+          },
+          {
+            "reference": "Observation/10d41a26-9551-4a0d-b99f-1b72a058e61e"
+          },
+          {
+            "reference": "Practitioner/0bfabbc1-5f91-4d87-a762-e89443f604bc"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MeasureReport/8c7034aa-1a15-4c9a-9394-5111f18fa6b9"
+      }
+    }
+  ]
+}

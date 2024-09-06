@@ -1,0 +1,396 @@
+{
+  "resourceType": "Bundle",
+  "id": "63ec09a2ccb3770120fea7fb",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "https://madie.cms.gov/Patient/7bdad476-bc07-4253-869d-e46b2d19ac75",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "7bdad476-bc07-4253-869d-e46b2d19ac75",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">LT2after <b>SODIUMPASS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>d4e3b34860364263302d53f5aee51bce780068433d224144226a0193b20c9a22</td></tr><tr><td>Date of birth</td><td><span>21 June 1947</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "1002-5",
+                  "display": "American Indian or Alaska Native",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "American Indian or Alaska Native"
+              }
+            ]
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino",
+                  "userSelected": true
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Not Hispanic or Latino"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "https://bonnie-fhir.healthit.gov/",
+            "value": "63ec09a2ccb3770120fea7fb"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "family": "SodiumPass",
+            "given": [
+              "24HrsAfterStartOfEnc"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1932-06-28"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/7bdad476-bc07-4253-869d-e46b2d19ac75"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Encounter/a017bdfa-c3d1-47c8-b2ec-063c783cf4cc",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "a017bdfa-c3d1-47c8-b2ec-063c783cf4cc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "NONAC",
+          "display": "Nonacute",
+          "userSelected": true
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "183452005"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/7bdad476-bc07-4253-869d-e46b2d19ac75"
+        },
+        "period": {
+          "start": "2026-06-28T08:00:00.000+00:00",
+          "end": "2026-06-30T08:15:00.000+00:00"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/a017bdfa-c3d1-47c8-b2ec-063c783cf4cc"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Coverage/433dbe20-65e8-4eb3-aa07-54d6e449b7db",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "433dbe20-65e8-4eb3-aa07-54d6e449b7db",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-coverage"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "https://nahdo.org/sopt",
+              "version": "1.0.1",
+              "code": "1",
+              "display": "Medicare payer",
+              "userSelected": true
+            }
+          ]
+        },
+        "beneficiary": {
+          "reference": "Patient/7bdad476-bc07-4253-869d-e46b2d19ac75"
+        },
+        "period": {
+          "start": "2024-01-01T06:00:00.000Z",
+          "end": "2026-01-01T11:06:01.000Z"
+        },
+        "payor": [
+          {
+            "reference": "Organization/9a1a9a62-5b79-429f-83a9-ed055f423752"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Coverage/433dbe20-65e8-4eb3-aa07-54d6e449b7db"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Observation/e3733ff7-39d4-4808-95bb-ac70c5c78b60",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e3733ff7-39d4-4808-95bb-ac70c5c78b60",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "laboratory",
+                "userSelected": true
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/7bdad476-bc07-4253-869d-e46b2d19ac75"
+        },
+        "effectiveDateTime": "2026-06-29T08:00:00.000+00:00",
+        "issued": "2026-06-29T07:59:00.000+00:00",
+        "valueQuantity": {
+          "value": 5,
+          "unit": "meq/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "meq/L"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/e3733ff7-39d4-4808-95bb-ac70c5c78b60"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Organization/9a1a9a62-5b79-429f-83a9-ed055f423752",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "9a1a9a62-5b79-429f-83a9-ed055f423752",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-organization"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "temp",
+            "system": "urn:oid:2.16.840.1.113883.4.4",
+            "value": "21-3259825"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "pay",
+                "display": "Payer"
+              }
+            ]
+          }
+        ],
+        "name": "Blue Cross Blue Shield of Texas",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+1) 972-766-6900"
+          }
+        ],
+        "address": [
+          {
+            "use": "billing",
+            "type": "postal",
+            "line": [
+              "P.O. Box 660044"
+            ],
+            "city": "Dallas",
+            "state": "TX",
+            "postalCode": "75266-0044",
+            "country": "USA"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/9a1a9a62-5b79-429f-83a9-ed055f423752"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/Practitioner/6ac0d4aa-6526-4f54-ad9f-58f80afd8764",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "6ac0d4aa-6526-4f54-ad9f-58f80afd8764",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "123456"
+          }
+        ],
+        "name": [
+          {
+            "family": "Evil",
+            "prefix": [
+              "Dr"
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/6ac0d4aa-6526-4f54-ad9f-58f80afd8764"
+      }
+    },
+    {
+      "fullUrl": "https://madie.cms.gov/MeasureReport/83b194bf-da53-4f24-ad9c-462ee208de82",
+      "resource": {
+        "resourceType": "MeasureReport",
+        "id": "83b194bf-da53-4f24-ad9c-462ee208de82",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/test-case-cqfm"
+          ]
+        },
+        "contained": [
+          {
+            "resourceType": "Parameters",
+            "id": "ca685b9d-3e8b-4944-9478-5985d4821ed7-parameters",
+            "parameter": [
+              {
+                "name": "subject",
+                "valueString": "7bdad476-bc07-4253-869d-e46b2d19ac75"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-inputParameters",
+            "valueReference": {
+              "reference": "#ca685b9d-3e8b-4944-9478-5985d4821ed7-parameters"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-testCaseDescription",
+            "valueMarkdown": "Enc, ends last day of MP (6/30), age 94 first day of enc.  Sodium lab @ 24 hours after start of inpatient encounter. "
+          }
+        ],
+        "modifierExtension": [
+          {
+            "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-isTestCase",
+            "valueBoolean": true
+          }
+        ],
+        "status": "complete",
+        "type": "individual",
+        "measure": "https://madie.cms.gov/Measure/HybridHospitalWideMortalityFHIR",
+        "period": {
+          "start": "2025-07-01",
+          "end": "2026-06-30"
+        },
+        "group": [
+          {
+            "population": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                      "code": "initial-population",
+                      "display": "Initial Population"
+                    }
+                  ]
+                },
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "evaluatedResource": [
+          {
+            "reference": "Patient/7bdad476-bc07-4253-869d-e46b2d19ac75"
+          },
+          {
+            "reference": "Encounter/a017bdfa-c3d1-47c8-b2ec-063c783cf4cc"
+          },
+          {
+            "reference": "Coverage/433dbe20-65e8-4eb3-aa07-54d6e449b7db"
+          },
+          {
+            "reference": "Observation/e3733ff7-39d4-4808-95bb-ac70c5c78b60"
+          },
+          {
+            "reference": "Organization/9a1a9a62-5b79-429f-83a9-ed055f423752"
+          },
+          {
+            "reference": "Practitioner/6ac0d4aa-6526-4f54-ad9f-58f80afd8764"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MeasureReport/83b194bf-da53-4f24-ad9c-462ee208de82"
+      }
+    }
+  ]
+}

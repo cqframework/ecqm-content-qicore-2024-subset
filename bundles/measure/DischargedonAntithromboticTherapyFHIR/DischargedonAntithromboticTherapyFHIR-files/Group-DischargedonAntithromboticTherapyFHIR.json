@@ -1,0 +1,417 @@
+{
+  "resourceType": "Group",
+  "id": "DischargedonAntithromboticTherapyFHIR",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/DischargedonAntithromboticTherapyFHIR"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/9da36a6d-e301-4a55-b2fb-a0663044d313",
+      "display": "AntithromboticTMeqIPAdmTM NUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bf9310f7-a29c-4676-a648-f07fa076f708",
+      "display": "PrincDxIsIschemicStk IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0c49cb52-3180-4223-a171-2a51117020a3",
+      "display": "NonEleInpEncx2 IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/35c7016b-0744-48b5-8f04-ecee82a67a94",
+      "display": "MedRsnStartTmLTEncInpAdmTm DENEXCEPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a9dbd21e-5569-4abb-90e4-8d8549bc57e1",
+      "display": "EncEndsAfterMP IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ea3d8950-023f-4bf6-a8a1-ec37e03f84ff",
+      "display": "MedDscPatRsnDTimeEQEncStopTime DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/326b13e2-9c8b-4b7e-aba8-ff7b74589546",
+      "display": "CMOdurED_ED=1hrObs=1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4d54cb50-ec59-42b1-a36a-9da16b998c19",
+      "display": "CMOdurObs_NoEDObs<1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/585a26eb-772b-48be-8702-d0310599e3ad",
+      "display": " CMOdurDiffEDTestOccur DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2e5c86d6-953d-48a9-9346-4114abd67ad1",
+      "display": "IPEncDuringMPExpiresAfterIPEnc IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/034f45b9-b7ff-47e2-8713-572209662dec",
+      "display": "MedDscPatRsnDTimeEQEncStartTime DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0ae17e11-9826-42fc-a01d-f5fadc01176e",
+      "display": "CMOdurED_ED>1hrObs>1hrBFEnc DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cfb633fe-9edb-43f5-9872-2b6c55d968e4",
+      "display": "NoEncounter IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/59615910-f4d7-4bfe-afec-b65bb64922c1",
+      "display": "CMOdurED_ED<1hrNoObsBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/74d62135-5bd1-48fc-987f-8a8ef15aa847",
+      "display": "AllSTKEncounter_FailAllNoSTK IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/95560f62-a049-4f9a-979f-926fd87414c2",
+      "display": "BadDef_STK=Rank_2 IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2e8c6e18-ded5-482d-8f55-083f4f8de168",
+      "display": "CMOdurEnc_NoEDNoObsBFEnc_dateTime DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/16a881fb-1da7-4c9d-af42-8ace95d55ef4",
+      "display": "TooYoung IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/dccb6e5a-17ce-4d6d-9906-8922ca14537d",
+      "display": "CMOdurObs_ED<1hrObs<1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bf3d4e66-5d74-47da-833c-9db96951de90",
+      "display": "CMOdurObs_ED<1hrObs=1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f447f9d3-2e3b-4c97-938f-a84cc34abd78",
+      "display": "CMOdurDiffEDTestOccur DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ca07d1d5-4ca2-4543-8b69-7ceabc574373",
+      "display": "NoPrincDx IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/508649a3-0b5f-435c-ab7d-8962e35ed2ba",
+      "display": "3Enc2WithAntithrombotic1WithExcep1Exclu NUMER&DENEXCEPPass- LCG"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fe6e436e-6ff7-4f48-bec4-121bf4ca5d1f",
+      "display": "CMOdurED_EDGT1hrNoObsBFEnc DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c6f3b118-474a-41d3-b974-7f1d491b76b4",
+      "display": "CMOdurEnc_ED=1hrObs=1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c8314abe-599d-4627-9477-aff68cfae027",
+      "display": "AntiThrpNotgivenDischarge DENEXCEPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9759577e-5085-40f6-8e9e-8f16f817cc72",
+      "display": "CMOdurEnc_ED>1hrNoObsBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/52bc049a-2417-4cdc-a36d-d62f90a873a5",
+      "display": "3Enc2WithAntithrombotic2WithExcep NUMER&DENEXCEPPass- LCG"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ff523a7d-41ea-455f-8cd5-af4369fb4786",
+      "display": "BadDef_NoneSTK IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/da2c903d-ff15-4d99-9152-145164248218",
+      "display": "CMOdurObs_NoEDObs<1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7ed29290-b918-47ef-975e-cdd384a425c3",
+      "display": "CMOdurED_ED=1hrNoObsBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/38f9d5ed-c1bd-497e-a1ad-c473a52c1246",
+      "display": "MedRsnDuringEncIpTestOccurr DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/81a7c06d-9d09-4d87-9ec7-03d865197a87",
+      "display": "MedRsnStartTmEQEncInpAdmTm DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8f6e41bb-1e89-4272-a629-569c20a4bdd9",
+      "display": "CMOdurObs_ED<1hrObs>1hrBFEnc DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/312e8ada-4ca0-4efc-92f8-1cc0331eb141",
+      "display": "CMOdurEncTM_EDEndTM=ObsTM_ObsEndTM=EncTM DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5e894c12-cf46-46a6-a73b-0affc7c0e205",
+      "display": "PharmContraDurEncStart_NoEDNoObsBFEnc DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/072a1e49-1d1f-48b3-a7d7-06bdc730e218",
+      "display": "NoEncounter IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6af92c41-b897-4425-b16f-ad112ad44675",
+      "display": "CMOdurObs_ED>1hrObs>1hrBFEnc DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d831bbe6-72b7-47a0-a7a9-9a6e3498ab7a",
+      "display": "CMOdurEnc_NoEDNoObsBFEnc_RelePer DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7047aa33-2d23-4f50-bfd5-509cecdd9bb1",
+      "display": "Custom Code NUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/90012e1b-cbc5-471e-9f26-e4e9f4a59dd3",
+      "display": "NonEleInpEncounter_AgeGT18LOSLT120EthnGenCov IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/965e4b18-e8fd-4334-80d0-4c87644d7b95",
+      "display": "2Enc3WithAntithrombotic NUMER&DENEXCEPPass- LCG"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3bb084eb-22c1-4449-9e09-9d6ebe65e1cf",
+      "display": "AntithromboticDuringIPTestOccur NUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4ea473a1-40ba-4e74-893b-e3b198de318a",
+      "display": "AntithromboticTMeqIPDischargeTM NUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1c2bb71d-e719-4d63-be01-889d27427439",
+      "display": "DischargeHomeHospice DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7a07d623-d974-4103-8a83-8f24e097824d",
+      "display": "CMOdurEnc_ED<1hrObs<1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b91f95d8-b48b-4ee7-bade-d6f5ab3e9448",
+      "display": "DischargeACF DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/705d472d-e6ba-4f07-8a8b-fedb8c02f459",
+      "display": "LeftAMA DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/94d381a5-ff91-407e-b1da-e0209c1b91d5",
+      "display": "CMOdurEnc_ED<1hrNoObsBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0d29bebd-f048-42e1-b63e-6152911b1657",
+      "display": "DischargeFacilityHospice DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d43239e0-d8bb-46a5-8243-b77d4b2804e2",
+      "display": "CMOdurED_ED<1hrObs<1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/adc9cad7-519f-483e-9025-fdc6611cb158",
+      "display": "AntithromboticAfterEncIP NUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/73d9c1a2-af41-4d32-85f3-0cd1f3ea2b5c",
+      "display": "NonEleInpEncounter_AgeGT18LOSLT120Female IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c07491f9-662f-4d7e-8ed4-3ad32ca15a6e",
+      "display": "PrinDxIsHemo IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f566bd0d-e971-4e39-9389-032df88ef40b",
+      "display": "CMOdurEDEDEQ1hrNoObsBFEncdoNotPerform DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/dd3cd454-e42f-4132-abc4-555a934cab95",
+      "display": "NonEleInpEncounter_AgeGT18LOSLT120 IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7530baef-a41e-43ce-8580-37b2e7116238",
+      "display": "AntithromboticTMeqIPAdmitTM NUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8cede968-425b-4f31-8dc6-51900997d179",
+      "display": "AntithromboticStartBeforeIPEnc NUMERFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9436a065-5a0d-4609-820c-5148189db1f3",
+      "display": "DenomExclusions_FailAll DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/33bf5305-1d34-4fe2-b261-813bbcc15ea6",
+      "display": "PharmContraBeforeEncStart_NoEDNoObsBFEnc DENEXCEPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/94300728-c5ff-4ee9-a4cc-717ae5d33518",
+      "display": "CMOdurEnc_ED=1hrNoObsBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e7888a05-f4db-403f-b9a1-b9dc582cff96",
+      "display": "CMOdurEDEDEQ1hrNoObsBFEncdoNotPerform DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/111e5d36-6549-41fc-ba71-f674e06f87e0",
+      "display": "MedRsnStartTmEQEncInpDischTm DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fd4c3acb-4e4e-4d70-a787-de4f269baed5",
+      "display": "age_eq18 IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f54cb75f-b5e0-4f95-b8f4-1a7fffd82f68",
+      "display": "MedRsnStartTmGTEncInpDischTm DENEXCEPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8b094c12-a09e-4153-83b8-569b6e6ba50a",
+      "display": "3Enc2WithAntithrombotic1WithExcep NUMER&DENEXCEPPass- LCG"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/36a1247f-35d7-4c3e-98cd-9d78916bcdc2",
+      "display": "MedDscPatRsnDTimeEQEncStartTime DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b6d15864-fd0e-4920-aab8-e3d384ee9d3b",
+      "display": "PharmContraDurEncStart_NoEDNoObsBFEnc DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c1c9ffa9-0743-4589-b99d-2d81776180d5",
+      "display": "age_eq18 IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bede72ea-5ba0-41f8-80f8-7073e3be5554",
+      "display": "NonEleInpEncounter_AgeGT18LOSLT120Race IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/25d18013-063a-44c1-a418-111e9cc00421",
+      "display": "PrinDxIschemicStk DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cf9639de-9323-4c66-9840-ff37895036e8",
+      "display": "EncEndsBeforeMP IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8152e72a-d3ce-4840-939c-7ac6fb556ece",
+      "display": "PatRefDuringEncIp DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a0d5c7b6-68f5-4818-a373-60398e408cab",
+      "display": "MedRsnDuringEncIp DENEXCEPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1061a4b1-566a-4d37-bd31-75ccc83578aa",
+      "display": "CMOBFEnc_NoEDNoObsBFEnc DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/32d29d07-c2ee-40cf-b0ca-d67858a6d89d",
+      "display": "CMOdurED_ED<1hrObs<1hrBFEnc DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d0977088-5604-478c-9df4-af053818eee8",
+      "display": "CMOdurED_ED>1hrObs<1hrBFEnc DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c21a93d1-24c2-4636-b790-6b47d755b90f",
+      "display": "AntithromboticDuringIP NUMERPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d78a319b-d016-4579-8cba-61b3a024eaf3",
+      "display": "IschSTKwDischgDisposion_FailAll DENEXFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/57aa10f3-05ba-4e3c-a318-b1ca265a717c",
+      "display": "Expired DENEXPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/11f4140c-4345-41f7-a675-eb97730d1b75",
+      "display": "PharmContraAfterEncEnd_NoEDNoObsBFEnc DENEXCEPFail"
+    }
+  } ]
+}

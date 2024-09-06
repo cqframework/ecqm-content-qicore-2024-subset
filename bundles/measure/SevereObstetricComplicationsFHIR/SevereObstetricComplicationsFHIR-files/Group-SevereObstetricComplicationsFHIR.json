@@ -1,0 +1,772 @@
+{
+  "resourceType": "Group",
+  "id": "SevereObstetricComplicationsFHIR",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/SevereObstetricComplicationsFHIR"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/4f7fc5c4-c13d-4b43-9482-c58909e3d596",
+      "display": "Age8OnDayOfEncStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/58ff59bc-a6fa-42b4-9e17-83bfbc2e2b46",
+      "display": "AssPrfDELRelvDt_EQIPStart DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0b412c73-184d-4224-aeac-91a87e40b4e6",
+      "display": "AssPrfEGALastIsNullFirstIs20  DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/81c8d495-352a-4f5b-ad42-88b6c83aea1d",
+      "display": "RISKSBPRelDtTimeEQDelStart RISKFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6ad99f9f-0957-437f-8277-8a6458d1f1f3",
+      "display": "DelProcStart_EncEndPlus1Minute IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/70143ea4-b493-4303-a2b5-93fe288a4193",
+      "display": "AssPrfTimeOfDelResultMissing DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/453b2400-11cb-4963-9ace-131e6a80600e",
+      "display": "LastAssPrfEstDELRelvTm_24Hr01Min00Sec_B4DELRsltDtTime DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/766ee143-df83-478a-afb7-8f1e71f14e71",
+      "display": "Risk_PlacentalAbruption RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fed97f33-1744-4f31-85f7-de5e6a7817d6",
+      "display": "1ENCMeets1EncDoesNotMeet NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c8c1be79-ef95-4aee-9262-174e2cd64821",
+      "display": "BloodTransfusionRelvDtTimeDuringEDOBTriageHosp NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/56cc4e8e-f5ba-4bd4-b69d-f7b446b3f47e",
+      "display": "SMMEQSepsis STRAT1Pass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f3a43f76-19b5-4f13-951b-e7d618d074b2",
+      "display": "Risk_AutoImmuneDisease RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8bc857fc-80f5-44f1-a1b8-15ba5bf9d3e1",
+      "display": "WBCRsltDtTimeEQDelStartless1Min RiskPassWBC"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a631d6da-3164-4b94-a035-77b6024628ef",
+      "display": "DxCodeOf20Weeks DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e2e014a6-9000-48e2-bc06-a86241b2031e",
+      "display": "RISKHR24hours1MinB4EDOTTriageEnc  RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/26e2a12e-2913-49e6-b9ae-e02ebd752b86",
+      "display": "EDD24Hrs1MinB4TimeOfDel DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fca44447-73d1-4beb-92a7-6458bb8beaae",
+      "display": "PretermBirthCodeCGAEGABothNull RISKPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/67d26c9d-642d-4bc7-b7eb-962bc2091ca0",
+      "display": "RISKWBC24hoursB4EDOTTriageEnc RiskPassWBC"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fd2ddec4-fb4d-4dcf-aca8-6936b93be5cc",
+      "display": "EDDDateOnly DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3a2bd0ea-82e2-4927-82dd-cca08f080cf7",
+      "display": "Risk_Thyrotoxicosis RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ae594dab-a6ff-462e-ae52-d1cef2906556",
+      "display": "EDD23Hrs59MinB4TimeOfDel  (1) DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/69dd6548-d8f8-42e8-9577-ee1b6ec91a72",
+      "display": "LastAssPrfEstDELRelvTm_00Hr01Min00Sec DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3c274019-ab07-4e3d-8761-07803d91acba",
+      "display": "AssPrfDELRsltDtTime_EQIPStartPlus1Min DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/488e4639-8f34-47f7-a089-66111fc00451",
+      "display": "DelProcRelDtTmEQEDEnd IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/216e077b-ac27-43e9-a4e2-f84c34e7eaae",
+      "display": "Age GT65 IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/adad9a34-50b7-4e72-8767-04f7c6bac4c2",
+      "display": "SMMProcedureMidnightDayOfEDVist NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/49e30f9d-760a-4227-bbd3-b8d5f7f29189",
+      "display": "Risk_NeuromuscularDisease RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/97855380-7983-4ddc-b2f4-04e5f89ba794",
+      "display": "CovidRespCondOnly DENEXCFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2397040d-0f55-428f-878f-280d768d7c5a",
+      "display": "Age64Yrs364DaysOnDayOfEncStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4972a1fe-cf57-46a4-b573-c0c96d681a66",
+      "display": "AssPrfEGALastIs19FirstIs20             DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c07808ee-d675-44e8-93af-06a9e16e79ae",
+      "display": "Test5EDDMinutesImpactOnWksGest DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a67663e9-0725-43f4-a523-dc2f96e3152c",
+      "display": "DelProcMissing IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e31ab824-c795-438d-a0ac-f5b2629f983f",
+      "display": "DelProcStart_EncEnd IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f429ec65-c1c6-4787-ba98-6e70c11e1be1",
+      "display": "EncEndMPEndMinus1Minute IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9e9f3655-a5e9-47bb-aff8-e2006ed51290",
+      "display": "DelProcRelDtTimeUsedInsteadOfPeriod IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e2dbe38a-194f-4e4c-84ba-1817377284f2",
+      "display": "DelProcRelDtTmEQEDStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0aa074aa-410f-4594-baca-7076259b8a49",
+      "display": "Age8OnDayOfEncStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6384c978-83d9-40a0-805c-234bbf130721",
+      "display": "LastAssPrfEstDELRelvTm_00Hr00Min00Sec_EQDELRsltDtTime DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7b945524-ba76-4702-b51c-6aea377321fc",
+      "display": "RISKSBPRelDtTimeEQDelStartless1Min RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a2cb8825-c0d1-48d9-a323-83951669d0a6",
+      "display": "Risk_CardiacDisease RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/217fb7c9-3be2-410e-b00c-22060f91cef2",
+      "display": "2HCT1stMeets2ndDoesNot RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8032df0c-0299-458a-832b-c5ceb02676b0",
+      "display": "RISKHctRsltDtTimeEQDelStart RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d775e2a2-58e2-42e5-95c3-371da81963e3",
+      "display": "LastAssPrfEDDRelvTm1MinShortOf42WksB4DELRsltDtTime  DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e0c01461-eeae-498d-9b48-f8883793fd03",
+      "display": "AssPrfEGALastIsNullFirstIs20  DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b84fe501-79ac-4d92-a1e6-476381c9fc51",
+      "display": "LastAssPrfEGAResultQuantityEQ21 DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0ce0fd7d-5a87-4259-b77e-5c801e9df149",
+      "display": "Test2EDDMinutesImpactOnWksGest DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/66f422af-110c-40c0-98c5-c8d26c91187f",
+      "display": "DxIsSepsisPOAisNo NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e517ad0d-357e-4ae3-a5e8-b352a07b1e7e",
+      "display": "LastAssPrfEGARelvTm_00Hr00Min00Sec_EQLastTmDELRsltDtTime DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7402a900-48e7-4c70-9331-1562d12569c7",
+      "display": "LastAssPrfEDDRelvTm1MinOver42WksB4DELRsltDtTime   DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8aa40b9f-a732-4d47-b9f0-e3ec39453e92",
+      "display": "Risk_SeverePreEclampsia RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ded81abc-f520-4a3f-b948-ee1b7eee4a35",
+      "display": "Risk_HIV RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a3958b29-1a3a-4017-a12e-5704b84d53f7",
+      "display": "Risk_PlacentaPrevia RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8042825f-fbfa-4995-b154-fbfd6d4fa2cf",
+      "display": "DelProcRelDtTmEQOBSEnd IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bed0d351-9de6-480b-b3d0-fb44d6fa8e33",
+      "display": "LastAssPrfEDDRelvTm42WksB4DelDtTimeEDDResultIsNull DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2df5c499-616a-438f-ac8d-4f398b9a1e32",
+      "display": "2RiskFactors NumPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b8d7fb81-5076-4514-b610-cdb775c7fff4",
+      "display": "Risk_BleedingDisorder RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ca04cc29-3d03-4da7-95b7-0ea3c531e037",
+      "display": "RISKEGAEQ20Wks RISKPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6f78d24e-1f97-4bd6-8202-0c35e6086848",
+      "display": "Age8OnDayB4EncStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/18704d43-b887-4fd8-b9c1-c0b22605afa1",
+      "display": "DelProcStart_EncStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8c634277-f108-424b-a9e1-9872c6ede751",
+      "display": "Risk_LongTermAnticoagulantUse RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fe74f45f-1173-4292-a68a-32dbe20d358f",
+      "display": "CovidDxCovidCond DENEXCPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a7510bad-5fee-4356-acf7-a5a1af58a8bb",
+      "display": "Test3EDDMinutesImpactOnWksGest DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8127bf9e-30cc-44f4-9ed0-6353c3389490",
+      "display": "EncEndEQMPEnd IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e97ae913-7895-4c4f-8b13-69f202a569f3",
+      "display": "DELEncCalEGAEQ20Wks1Day DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3d73f97f-fb6e-4e48-b472-b624148dd242",
+      "display": "Risk_ObstetricalVTE RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/22541dc3-b822-4043-8d08-5260ca0b1132",
+      "display": "LastAssPrfEstDELRelvTm2DaysB4DELRsltDtTime  DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/505e8b0e-184c-49a1-ada0-225525add3b0",
+      "display": "RISKWBC24hours1MinB4EDOTTriageEnc RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ae631e85-e1f3-46fb-a7f9-9c017b0191e7",
+      "display": "Risk_MentalHealthDisorder RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3dc5afb6-cb04-4826-a251-45dcf0c5ae6f",
+      "display": "SMMProcedure1MinB4MidnightDayOfEDVist NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6b78a543-eea4-4987-a1ad-f941126b597c",
+      "display": "Risk_PlacentalAccretaSpectrum RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/35c541b3-b513-4278-bb0d-2ac1d33e07b6",
+      "display": "LastAssPrfEGARelvTm_24Hr01Min00Sec_B4LastTmDELRsltDtTime DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e144c8f1-f704-4db0-a833-ce29b624f454",
+      "display": "AssPrfEGALastIs19FirstIs20             DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/db719e86-c19c-4678-b7d6-e0089b495160",
+      "display": "Risk_PreviousCesarean RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0edc789c-4379-4bba-af8b-53473a21a53a",
+      "display": "Risk_RenalDisease RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/dc884519-228a-4d0e-b8a9-384cb9dc1cb6",
+      "display": "LastAssPrfDELRsltDtTime_AftIPEnd DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/11915e4b-c33a-4ee8-b938-6ca2c93a4a80",
+      "display": "LastAssPrfEstDELRelvTm_24Hr00Min00Sec_B4DELRsltDtTime DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/36375c34-a390-4f85-93a5-af4d5c7e6b67",
+      "display": "Risk_GestationalDiabetes RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c273296a-5429-4c99-adc7-55a65a944362",
+      "display": "LastAssPrfEGARelvTm_24Hr00Min00Sec_B4LastTmDELRsltDtTime DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8fa707ac-fa18-43f4-94a0-259259cdd24c",
+      "display": "RaceEthnicityDetailedAdded IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4e3592e0-8a05-42e6-85ec-eb90a7f04118",
+      "display": "EncDxEQSNOMEDShockPOAisNull NUMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/eb83bbef-ff4c-4ce4-a2fa-1a0e13127fe6",
+      "display": "2DeliveryEnc11MosApart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8728738e-7f69-4d75-91bd-a4f908a7aec7",
+      "display": "Risk_PreExistingDiabetes RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/468b272c-ae69-4a0a-b57a-68db9af541f1",
+      "display": "Risk_SubstanceAbuse RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9ffbf7af-cc0f-4e32-90f5-3d60d48b9015",
+      "display": "Risk_EconomicHousingInstability RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f0c8532e-1ac7-46ec-91fe-6ef3180c6122",
+      "display": "SMMEQBlood Transfusion STRAT1Fail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c509f954-6170-4150-b3fe-11e7239c42e4",
+      "display": "EDD24HrsB4TimeOfDel  DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/285027ef-63bd-481e-8a5f-7c1f4ea83ce7",
+      "display": "CalcAndEGA19WksDxCode20Weeks  DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4fe6f103-3d05-4e7c-9344-0eff25cd362e",
+      "display": "SMMProcedureNoTimeDayOfEDVist NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/37b2150d-91bf-4b43-b378-990ec02b6078",
+      "display": "RISKHct24hours1MinB4EDOTTriageEnc RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/83346c9d-6c4e-4b4d-9f1a-0d476a3772d0",
+      "display": "Risk_Anemia_RiskVariablePOAisNo RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/af5c698f-848c-4ca8-8823-0bfa5b01aafb",
+      "display": "Risk_Multiple Pregnancy RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f6d81b87-07e9-4749-b5b7-4b9825c88535",
+      "display": "DelProcRelDtTmEQIPEnd IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/80f833eb-bfac-4d63-9324-a1747c75d43d",
+      "display": "RISKHct24hoursB4EDOTTriageEnc  RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d82d5cf6-5c19-4a63-9a04-c2f772c23b06",
+      "display": "EncProcEQSevereMatMorbidity NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/998efac2-6aa5-4bd9-95db-3875bc1c7fa8",
+      "display": "SMMEQBlood transfusionANDSMM STRAT1Pass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b0ca975d-dd29-4caa-9c27-832880fbcce3",
+      "display": "Age8OnDayAftEncStart IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/df168de3-e1b7-4e36-b2f7-c1e88b88762d",
+      "display": "Risk_GastrointestinalDisease RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e38a9272-dda6-4243-b10a-ce755add6c3e",
+      "display": "AssPrfDELRsltDtTime_EQIPEnd DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a3689590-0313-4fad-831c-e3ff0ae03d60",
+      "display": "RISKSBP24hours1MinB4EDOTTriageEnc RISKFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/41a52455-bf64-4518-be9d-d6770572faa6",
+      "display": "DelProcRelDtTmEQIPStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ae04f317-ecda-4940-96f9-063ef12391e7",
+      "display": "CovidDxOnly DENEXCFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8d4ec26c-6284-4a96-966a-1e1c56f3b90b",
+      "display": "EncDxEQICD10SepsisPOAisYes NUMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4c78e8b2-e7b9-4480-96da-515b1e1e8ac7",
+      "display": "LastAssPrfEstDELRsltDtTimeMissing DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cab1c304-1545-42e2-95fc-a0607cb4640d",
+      "display": "EncEnd_MPEndPlus1Minute IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1a5d2c56-6234-413b-8531-7d1da9848edd",
+      "display": "AssPrfDelRelvDtEQIPEnd DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/16ff3b66-0208-4a9a-8969-f0b9bd9dd7e0",
+      "display": "LastAssPrfEDDRelvTm42WksB4DELRsltDtTime  DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a3da8717-5010-4401-beb4-2591a89e8565",
+      "display": "LastAssPrfEGAResultQuantityEQ20 DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/eda947a3-bcdd-4909-ab8d-b4e3be8505ff",
+      "display": "RISKHRRelDtTimeEQDelStartless1Min RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/169f4d1c-1c98-445c-96db-7710d85f6815",
+      "display": "DelProcStart_EncStartMinus1Min IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/21e5a993-bef8-4d67-83db-19b3bd054dd6",
+      "display": "Age65OnDayOfEncStart IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4fc56a9c-8f39-4760-bcbf-1fd75b376b5a",
+      "display": "Risk_Hypertension RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/08cc0224-ec8b-4a95-8beb-c58e91a20a48",
+      "display": "DelProcStart_EncStartPlus1Min IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/479b5965-0fef-4d37-b767-03502fd12f84",
+      "display": "Risk_MorbidObesity RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0758abcc-75c8-4df2-aa33-77feab7514f6",
+      "display": "CovidDxCovidProcedure DENEXCPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/47ad2628-bec3-4c53-b106-adaceecc60ee",
+      "display": "CovidDxCovidProcedureStrts1159pmDayB4EncStrts DENEXCFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/151d62c8-c0c8-4651-8ce9-e8df0a511b6d",
+      "display": "DelProcRelDtTm1MinB4EDStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f97440a7-ac3b-4751-9cee-a6d60bdb335d",
+      "display": "Risk_Anemia_RiskVariablePOAisNo RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a0f14d95-50f8-4786-bdf5-d58ba6e40e38",
+      "display": "RISKHRRelDtTimeEQDelStartless1Min RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5eafa3a6-7f36-452d-9c6b-826661c9f0ff",
+      "display": "RISKHctRsltDtTimeEQDelStartless1Min RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0bb61859-7f03-4eaf-87ba-ccdeba71125b",
+      "display": "DelProcRelDtTm1MinB4MidnightDayB4EncStarts IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/280a1eb7-c399-4c0c-90ed-e8045fcb6cb2",
+      "display": "AssPrfDELRsltDtTime_EQIPEndMinus1Min DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/72d29278-ddf6-47fe-a9a1-bed6944e170e",
+      "display": "Risk_OtherPreEclampsia RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1673e28d-155a-4975-972b-bcc4b1699977",
+      "display": "2ENCMEETNUM NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1ab09b13-6b97-411f-b12a-767f8b9c79de",
+      "display": "DELEncCalEGAEQ19Wks6Days DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c607db94-cfc1-4174-bbbc-b66c38101270",
+      "display": "RISKDXEQPreTermBirthEGAEQ40Weeks RISKFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3134a396-b151-4708-9e23-c961c4a73471",
+      "display": "RISKWBCRsltDtTimeEQDelStart RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b76f60da-f8a1-4ac5-a386-1d5cb8aa843a",
+      "display": "CalcEGA19WksDxCode20Weeks DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/815d135c-0ab9-4ae4-b747-63e443985ae8",
+      "display": "BloodTransfusionRelvDtTime1MinB4MidnightDayOfEncEnd NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1950e434-d87d-4156-83a5-b3e8cefccc69",
+      "display": "RISKSBP24hoursB4EDOTTriageEnc RISKPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3de3bd5f-9d29-4a3a-9d3a-5e3afc86f7fd",
+      "display": "Risk_BariatricSurgery RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/836bbf45-50e1-4409-80e8-feb4767887f1",
+      "display": "DelProcPerfTm1MinAftEncEnd IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e9b41982-2f9c-4fc3-ac5b-4cbb623842d9",
+      "display": "RISKHRRelDtTimeEQDelStart  RiskFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7e0294ff-9b6a-4b45-8033-d9630c4d4e98",
+      "display": "AssPrfDELRsltDtTime_EQIPStart DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8ee698d1-9d49-4625-bdfb-96be2eae60c2",
+      "display": "BloodTransfusionRelvDtTime1MinAftMidnightDayOfEDOBTriageHosp NUMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a3d70d47-e39d-4dcc-86a7-fac7b1dd3098",
+      "display": "BloodTransfusionRelvDtTime1MinB4MidnightDayB4EDOBTriageHosp NUMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2dc295a7-85e9-46e4-8a7a-db11398ccac4",
+      "display": "DelProcRelDtTmMidnightDayAftEncEnds IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8de6fb47-6c7e-4ba9-b1e0-ac23166f7b5c",
+      "display": "Test4EDDMinutesImpactOnWksGest DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/db796326-d074-4733-ac4c-d688c28c19a2",
+      "display": "Test1EDDMinutesImpactOnWksGest DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9b4156ec-db0b-4475-8945-27996816e99d",
+      "display": "EDD24Hrs1MinB4TimeOfDel DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1d2effc9-a7c0-4eb9-806d-9665500abd49",
+      "display": "BloodTransfusionRelvDtTimeMidnightDayEncEnds NUMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/03663479-ff58-4890-aa59-338b05059d99",
+      "display": "AssPrfDelRelvDt1MinAftEncIPEnds DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0fcec00e-03f5-4b36-8d9b-184d5d709427",
+      "display": "CovidDxCovidProcedureStrts1159pmDayB4EncStrts DENEXCFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4c51eb20-f137-4ba1-b4ba-eeacf2d0b99b",
+      "display": "AssPrfDelRelvDt1MinB4EncIPStarts DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/92cc5bd2-8acf-4045-be9f-ae6833a16835",
+      "display": "AssPrfDELRsltDtTime_AftIPStart DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3973f58d-36e3-4fe6-9f06-14bbbce0c829",
+      "display": "Risk_Asthma RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5bac3db9-19ec-42fa-86cb-5077eb41d37c",
+      "display": "Risk_PulmonaryHypertension RiskPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6b9ee7da-468e-4501-a633-5f813e00a5c5",
+      "display": "DelProcRelDtTmEQOBSStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b9f49409-8834-4a9d-983b-9d338b2d458c",
+      "display": "AssPrfDelRsltDtTime_B4IPStart DENOMFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/adfbb440-95bf-403f-a433-fa478ccbbb2b",
+      "display": "DELEncCalEGAEQ20 DENOMPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2186e400-a758-4935-b08d-ca3ee723d42e",
+      "display": "CovidDxCovidProcedureStrts1201amDayAftEncEnds DENEXCFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/193bcb0f-e579-47d1-b09f-f3bb93b126ac",
+      "display": "Age8OnDayOfEncStart IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6854fe23-9f22-4b1b-ade8-30cad70721d3",
+      "display": "RISKCalcGestAgeEQ22Wks RISKPass"
+    }
+  } ]
+}

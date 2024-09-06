@@ -1,0 +1,192 @@
+{
+  "resourceType": "Group",
+  "id": "HybridHospitalWideMortalityFHIR",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/HybridHospitalWideMortalityFHIR"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/c9a35d32-7ce3-43b9-8c95-6ec78194c2aa",
+      "display": "Age94DayOfEncounter IPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/373589db-31aa-4416-b20f-a921a1bc9639",
+      "display": "24HourAfterStartOfAdmit BicarbonatePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/69148fea-5911-4661-9c0d-1df2c287cd30",
+      "display": "24Hrs1MinBeforeStartOfInpatient TemperatureFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/58b6bf53-f862-4fd2-beb3-3f072b118d28",
+      "display": "NoInsuranceCoverage IPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/03094c7f-fb74-4f51-8ee5-a5e4a2411a9f",
+      "display": "OneMinuteAfterAdmission PlateletsHeartRateSystolicBPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c8012162-bc11-430b-84d4-809b66ab3cf0",
+      "display": "24HourAfterStartOfAdmit BicarbonatePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fb7e59bf-0f57-46ef-96fa-0cb4be46e403",
+      "display": "24Hrs1MinAfterStartOfInpatient CreatinineFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0e890bae-051e-49a0-904e-eefe578ba696",
+      "display": "PerformedInObs23Hrs15MinsPriorToAdmit HematocritPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/aebb9d2c-4f53-4dba-924c-b471c936a4ed",
+      "display": "2Hours1MinAfterStartOfInpatient TemperatureFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a485246d-5d44-4e17-ae78-ec1a0ad4069e",
+      "display": "2HoursAfterStartOfAdmit SystolicBPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2070db54-197d-498c-a21e-fd634b635b83",
+      "display": "PayerIsTricare IPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b2bf9ada-5bb2-4bd3-b682-48d1aff3b5f0",
+      "display": "HR24HrsBP24Hrs1MinAfterAdmit HeartRatePassSystolicBPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4877bec2-f526-474d-b9f0-04adf29ee473",
+      "display": "OxygenSatPass PerformedOnAdmission"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/94a4aad0-b272-4d14-a4e9-a02b5276b074",
+      "display": "HR5MinsBP24HrsAfterStartOfAdmit HeartRateAndSystolicBPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/567d284f-d5cf-4384-a74f-78ce52d9abc2",
+      "display": "EncounterEndsB4StartofMP IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9fa4a351-16fb-468a-a714-4753a1478097",
+      "display": "24Hrs1MinBeforeAnd48HrsAfterStartOfInpatient WhiteBloodCellFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7bdad476-bc07-4253-869d-e46b2d19ac75",
+      "display": "24HrsAfterStartOfEnc SodiumPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b0eeae6e-7ae5-4c38-bbf8-5a1b619b2876",
+      "display": "FirstReadingNotInMP SystolicBPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/db63909b-c60f-45fc-8160-f40808d1444d",
+      "display": "Encounter365Days IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2abd13d2-81d0-4222-9dbb-f7535d3a51d5",
+      "display": "PerformedXs4 CreatininePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ec665889-912d-4399-a535-7490c89dfaaf",
+      "display": "AllExamsPass EachPerformedInSeparateEncounters"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9b39b797-46ff-41d2-b5a3-2cace5e0ebeb",
+      "display": "2HrsAfterStartOfEncounter TemperaturePass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1b60a224-b384-4c0a-adf0-b0598903b174",
+      "display": "ObsIPEncountersWithLabsDuringTimeframe AllLabsPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cf46d05f-bf8c-4107-87f5-e225f839692d",
+      "display": "TooYoung IPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a20217e9-2f4f-4f61-8f5f-9abe3b6fa240",
+      "display": "24AfterStartOfAdmit PlateletPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/76bc62ce-2a30-4b34-8685-c37a1d88afe8",
+      "display": "EncounterEndsAfterMP IPPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e4b49901-191f-4f0b-88c9-a9480cb2d91a",
+      "display": "224Hrs1MinAfterStartOfAdmission PlateletFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/82168cbd-1ad2-47da-b16f-78f43d6d6a00",
+      "display": "24Hrs1MinBeforeInpatientAdmit HematocritFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5c3fbf9e-5350-450b-908c-01c78caf059d",
+      "display": "24Hrs1MinBeforeInpatientEncStart BicarbonateFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b3fc91fd-2834-4197-af08-1e2217178183",
+      "display": "DifferentPayerValueSetIncludesMedicare IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1161c307-a0c3-455b-9063-be03510884ae",
+      "display": "OxygenSatPass PerformedOnAdmission"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/19fb06d8-7120-4c21-bbf8-f7ec55490c0d",
+      "display": "NoResult SodiumFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3420175b-2386-4bd6-848d-e4a042d4125b",
+      "display": "OneHourAfterAdmission WhiteBloodCellPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a63cc783-cd25-4fe5-b424-f3552a1164f1",
+      "display": "NoEncounter IPFail"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9ecec0b1-3b98-4d59-9613-3837ec3f9f46",
+      "display": "InED15AndHalfHrsBeforeInpatientAdmit SystolicBPPass"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e50e94d0-b676-4df8-971c-72950e4a8fa7",
+      "display": "OnAdmitrelevantPeriod HeartRatePass"
+    }
+  } ]
+}

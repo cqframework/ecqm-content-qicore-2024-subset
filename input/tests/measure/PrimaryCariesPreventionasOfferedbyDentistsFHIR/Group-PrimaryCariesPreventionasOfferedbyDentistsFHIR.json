@@ -1,0 +1,112 @@
+{
+  "resourceType": "Group",
+  "id": "PrimaryCariesPreventionasOfferedbyDentistsFHIR",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/PrimaryCariesPreventionasOfferedbyDentistsFHIR"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/62ce076a-1ec7-428a-8f20-0ee957756929",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e71df2a4-9c4f-417f-914f-ebaffe7db934",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/adbdfb62-0d51-4e57-809d-854037b8e433",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7cbad1bc-f699-41b2-b79a-67ba4c4bf58a",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/09adcd81-b4bc-40ff-a1de-53d6674d3495",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c774efc2-4438-412b-810e-f505bb83945f",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/459196c5-4b41-444a-a21c-5ed7e2fdc626",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/213f47b3-278d-458a-bf52-f533c779b209",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e01f620c-3614-4ade-85b6-f81f214066c8",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9289eb3b-db40-4334-b668-39812fca7c4e",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9a07aa3c-20aa-4337-8c72-cbc4dea23ab9",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c9f6e217-9e29-4f13-acdc-4fcb97f22dbb",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/614bf8bf-dfcd-4301-b098-30db51786bc5",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b2272163-9d12-462e-aeb3-259470ae0589",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cf6122d7-7db5-4f7e-980d-79d870b95ca5",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fd01c404-7bd5-4050-90e9-e804d81c5746",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4afc7cda-7c8d-4d6e-a4b0-2e32020c01e8",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/821582ef-c786-41f2-aab1-068b6f713831",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/30059f61-8c2b-4f74-9759-682adf57f27f",
+      "display": "Betty Bertha"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6d5729b5-4d15-438a-b017-82757cc87bac",
+      "display": "Betty Bertha"
+    }
+  } ]
+}

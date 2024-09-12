@@ -103,7 +103,6 @@
             "coding": [
               {
                 "system": "http://www.ama-assn.org/go/cpt",
-                "version": "2021",
                 "code": "99394",
                 "display": "Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; adolescent (age 12 through 17 years)",
                 "userSelected": true

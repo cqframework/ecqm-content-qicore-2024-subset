@@ -202,12 +202,7 @@
         },
         "period": {
           "start": "2024-12-01T00:00:00+00:00"
-        },
-        "payor": [
-          {
-            "reference": "Organization/MEDICARE"
-          }
-        ]
+        }
       },
       "request": {
         "method": "PUT",

@@ -1,0 +1,62 @@
+{
+  "resourceType": "Group",
+  "id": "HospitalHarmHyperglycemiainHospitalizedPatientsFHIR",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/HospitalHarmHyperglycemiainHospitalizedPatientsFHIR"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/8dcbe265-4521-4dfd-b2de-befb650be538",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/927fd96a-4ac1-41f4-ad6f-3f8cd88257d4",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a2310435-9974-407e-a4b0-f40c9f9d5515",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/66f803ab-a59f-444e-b3aa-f2685d6f5477",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ed4302ae-16ac-4491-9803-5421bb32997f",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/befc12a0-3573-4003-b68d-ccc5bba50dfa",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/06048f6c-05da-4332-bb27-698c73519cfd",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8d102acf-ff6c-4df2-8110-dc9f1dd9d5fa",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/9ea97771-7074-4912-a628-c2e70e8440cc",
+      "display": "Patient Example"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8fdcd7fa-4333-4607-ab93-4eec55ee8e61",
+      "display": "Patient Example"
+    }
+  } ]
+}

@@ -281,12 +281,7 @@
         },
         "beneficiary": {
           "reference": "Patient/4877bec2-f526-474d-b9f0-04adf29ee473"
-        },
-        "payor": [
-          {
-            "reference": "Organization/123456"
-          }
-        ]
+        }
       },
       "request": {
         "method": "PUT",

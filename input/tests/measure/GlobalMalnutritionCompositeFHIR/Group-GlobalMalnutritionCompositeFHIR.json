@@ -1,0 +1,607 @@
+{
+  "resourceType": "Group",
+  "id": "GlobalMalnutritionCompositeFHIR",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/GlobalMalnutritionCompositeFHIR"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/fcfe0e05-11bc-42fb-b080-4ee168cda5ef",
+      "display": "ScreNotatriRefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6c6be4a1-5d2c-4283-ba07-0a078cfe5115",
+      "display": "ScreAtriRefAsseNotmNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c87e1b48-820b-40cf-b0b0-7f611bc721fb",
+      "display": "ScreAtriNorefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/867f00f9-facf-41e7-9925-a22a944e01bb",
+      "display": "NoscreNorefAsseModDxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/7ba1002f-668e-40dc-b687-55e0cd77008b",
+      "display": "ScreNotatriRefNoasseNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a1c6d37a-daad-4745-bb61-146bc84eb8e1",
+      "display": "ScreAtriRefAsseDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0be29df9-8f51-4d37-a6aa-51f6e55a11fa",
+      "display": "ScreAtriNorefNoasseNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bd164f0a-32b1-487d-8134-93bc25787708",
+      "display": "2Encounters100100L"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bd19f603-4d54-4014-92c8-55dbe78f7c60",
+      "display": "ScreNotatriNoref2AsseNotmModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8d912bdb-4d84-4875-88d3-99b9fa5e2a1e",
+      "display": "ScreNotatriRefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/70c9f76c-18d8-42aa-a8fe-28bf143808e4",
+      "display": "ScreAtriRefNoasseNodxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a0272c3f-de9f-4e85-99f3-27f2caf1686a",
+      "display": "ScreAtriNorefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/126d17a8-b5f0-4917-b6b6-8d2a60f55b4f",
+      "display": "65AfterStart"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8813c21f-8971-4015-99f5-2c3f4e8d32a7",
+      "display": "Not65"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c0cf4b66-a6f3-45aa-8507-647f86908553",
+      "display": "NoscreRefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/c006dcd5-05df-49e0-a48b-66d162767508",
+      "display": "ScreNotatriNorefNoasseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d76c3eaa-f54d-4c4e-8374-a03360539de7",
+      "display": "ScreAtriRefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4c97bead-9f31-4772-a52f-60f1b375a4c2",
+      "display": "NoscreNorefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4e0ebde1-9ec2-492e-b808-58d38a8c8afe",
+      "display": "ScreAtriNorefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/898d49f3-b159-4012-ac6e-a10f738c4c7c",
+      "display": "ScreAtriNorefAsseNotmNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1f0f82f2-2535-4e30-a97b-26e046a4d12f",
+      "display": "NoscreNorefAsseModNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/08511ae4-4004-4406-9227-f000212a2e3e",
+      "display": "ScreAtriRefAsseModNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bfc67187-58aa-4346-9f07-1114cd62a89a",
+      "display": "ScreNoatriNorefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1317befb-2312-453e-9c46-46c7a8c59240",
+      "display": "ScreNotatriNorefNoasseNodxNoCP"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/902dddcd-b228-4fe9-a799-401a74379323",
+      "display": "ScreNotatriRefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/dca1d714-8a3f-43c7-a9cd-c5a509214c01",
+      "display": "NoscreRefAsseModNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3e386230-a9a8-4fda-b579-dfa7e4d76dbc",
+      "display": "NoscreNorefNoAsseNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ea9f1fb2-473d-4b44-b959-53de3a6a37ed",
+      "display": "NoscreRefNoasseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/79b27d77-e373-4794-b475-4bdb8841ea6d",
+      "display": "ScreNotatriRefNoasseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e05c30b6-1307-4be6-a7b5-6014bc502fca",
+      "display": "ScreNotatriNorefAsseModNodxCp3"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d6c485a9-091a-4249-b07c-cde042b9e671",
+      "display": "ScreAtriRefNoasseDxNoCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/fee8aab6-2e79-4203-b8f6-02ef3e95bc03",
+      "display": "ScreNotariRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0883edfd-56a9-43e3-a36b-918aa7a349c4",
+      "display": "ScreAtriNorefAsseNotmNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/141d7cfd-75cd-4e5e-95d1-3e88b589780d",
+      "display": "ScreNotatriNorefNoasseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/991104cb-e5c2-4414-8db9-33595aa725ad",
+      "display": "LOS23Hours"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/57738f12-b2df-4a06-97a8-c1e91f5f08f6",
+      "display": "los23hours2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e89e07c7-101f-452c-a05f-29fda5c4a65a",
+      "display": "ScreAtriRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6440dedb-dfeb-4517-b534-f578c73dffc0",
+      "display": "ScreNotariRefAsseModNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/58849689-6c18-4b4c-81bf-0bfb84143fdc",
+      "display": "NoscreNorefNoAsseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/03320bde-3793-402d-b234-ffdb80c3d55c",
+      "display": "ScreAtriNorefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/33a81232-f22d-446b-8911-824bf8211925",
+      "display": "ScreNotatriNorefAsseModDxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/eef0c8ab-1f24-4d45-beb3-e817bc3f61f4",
+      "display": "2Encounters100100L"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/89076235-6f1e-4c4a-b4a1-fb0bfd2a3bd3",
+      "display": "NoscreNorefNoAsseNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f5e58cad-fbd3-48e8-bb7f-c0babc67c2ce",
+      "display": "ScreAtriRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d31811e8-e830-4f7b-80f7-9f060af8f504",
+      "display": "ScreAtriNorefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f61cc605-9140-40b3-bae9-dc02c6df0231",
+      "display": "ScreAtriRefAsseNotmNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f475ac74-191a-49ec-a9ef-d8b87544e328",
+      "display": "ScreAtriRefAsseModNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/068550b0-7f32-4511-bc22-4af201eb804d",
+      "display": "ScreAtriRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/12d8f477-b9a7-4330-b5c8-f2950915b480",
+      "display": "ScreNotatriRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/104bf81a-f31a-4b36-86c9-3ede991a01b8",
+      "display": "NoscreRefNoasseNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/89d09da9-aa8d-4358-beeb-30ee864d7c69",
+      "display": "NotscreRefAsseNotmNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5e92a176-9724-49d3-84a2-bf8a8d556656",
+      "display": "NoscreNorefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5b1d3894-204b-405a-8469-85bf058631e2",
+      "display": "NoscreRefAsseModDxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f5f5cf25-5b64-42ff-baae-14f5a050ffb3",
+      "display": "NoscreNorefAsseMoNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ad21f1e6-dfca-4265-875d-33b0435009e2",
+      "display": "NoscreRefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1b2daf18-ec04-490a-9216-a0033fb2fd4d",
+      "display": "ScreAtriNorefAsseModNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d9284c0e-f023-41ae-97db-e795ab92236b",
+      "display": "ScreAtriNorefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f7e5a3da-429b-48ad-9c98-a04d4a2fe330",
+      "display": "NoscreRefAsseModNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/617c001f-c464-40a2-951e-895ff298820d",
+      "display": "2Encountersat10050"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2ea05162-7df5-46bd-83e6-33e4eee6d9cc",
+      "display": "NoscreNorefAsseNotmDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a92af6cc-1b37-4c8c-aad1-a91a8986cc4c",
+      "display": "ScreNotatriNorefAsseModNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/59aeb000-1b09-4182-8070-6d7164701005",
+      "display": "NoscreRefAsseNotmDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/111e176b-ea35-4635-b8b9-9480d848a7a1",
+      "display": "ScreAtriRefAsseModDxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6d3e262c-7d72-4e22-a92a-5e060362bf15",
+      "display": "ScreAtriRefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6af2dda5-9db8-494d-8464-00adb5e5b273",
+      "display": "ScreAtriNorefAsseModNodxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a31dbc9a-c516-4b57-a934-dc438600fc5d",
+      "display": "ScreAtriRefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cc591bef-7163-4077-a6c5-6d74c2a4ddee",
+      "display": "ScreAtriRefNoasseNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/daf36154-13ab-4672-a73f-2ceb4a5b0cc0",
+      "display": "NoscreRefAsseModDxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a03a0b69-1214-4e30-a971-24bbd0af93f5",
+      "display": "MultiScreAtriskNorefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d1e93ebf-c026-451b-8b4a-a09015619ad0",
+      "display": "ScreNotatriNorefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ba29234f-6ebc-4698-9dea-7758f6179fba",
+      "display": "NoscreRefAsseNotmNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4b32aa66-eea5-447f-a671-b0c0bfb12573",
+      "display": "NoscreRefNoasseDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f2be460c-7fd6-44e9-8318-2c00b3f4344d",
+      "display": "2ScreAtriNotatriNorefAsseMdoDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/75bf5598-6e4a-4c6c-9b1e-3073c605820a",
+      "display": "ScreAtriNorefNoasseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/e9b4cf55-8744-4194-a07c-9a5ba93e9c52",
+      "display": "ScreNotatriNorefAsseModDxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a213f99d-228e-4cc5-b4ff-d1a152b40ab0",
+      "display": "NoscreNorefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/97a41961-e470-4c38-8d24-999852a9f0dd",
+      "display": "ScreAtriRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5088b2cd-63a0-49b8-b92e-5931aea143a6",
+      "display": "NoscreRefAsseModNodxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1a3ef5b5-7539-409a-b2aa-3b1757d2da30",
+      "display": "ScreAtriNorefAsseModDxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2839475d-1a67-4d85-99ee-d4480cad1160",
+      "display": "ScreAtriNorefNoasseDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6a6d13bf-394c-4a87-ac40-c603ded48daa",
+      "display": "ScreAtriNorefAsseModDxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/b67801fa-c8ef-4d1a-bc66-aa666f13fe6c",
+      "display": "ScreAtriRefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f449a1ea-36de-44cf-b9ae-7c9f4ec48f20",
+      "display": "ScreNotatriRefAsseModDxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/941dba78-77af-48d6-8db6-744905c28549",
+      "display": "ScreAtriNorefNoasseNodxCP"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/faf7bc64-189a-49ae-880d-c850d091249c",
+      "display": "NoscreRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/deab30c4-8c3d-40b3-aba7-5a3b0a23816a",
+      "display": "2Encountersat10075"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/8923a8de-f41c-4851-80fc-ea843160ef9c",
+      "display": "NoscreNorefAsseNotmNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/cd845443-6fc6-4118-8279-94774a5b76c7",
+      "display": "2ScreNotatriAtriRefAsseModNodxNoCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/f270bf59-6438-4d9a-b348-79a09ef9d148",
+      "display": "ScreAtriRefAsseModDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/a931cc80-cc9c-4e4c-9bf6-b6a38f4ce8c2",
+      "display": "NoscreNorefAsseNotmNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/00981d75-07e2-4e56-b6df-1275aae40d3e",
+      "display": "ScreAtriRefNoasseDxNoCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/487a8227-4403-4d47-97ee-19f285609128",
+      "display": "NoscreNorefAsseModDxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1d159e8d-6e29-4dd8-82fa-df5b499c9215",
+      "display": "Not65"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/54a62f20-842b-4525-9d6f-db7b3fd5f9a7",
+      "display": "ScreNotatriNorefAsseModNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bc357cab-7108-41e2-88a3-f8969454bcce",
+      "display": "2Encountersat100752"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/448d12f1-b64a-4c55-828e-75f58154b69c",
+      "display": "ScreNotatriNorefAsseNotmNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/0d34fc5f-6432-406c-a4c0-be83afc52478",
+      "display": "ScreNotatriNorefAsseModNodxCp4"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/16eb49e9-98f7-4b7c-b91d-520a4020281e",
+      "display": "ScreAtriRefNoasseNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1518ab69-c22e-4a18-bebd-cb88d70a0ca4",
+      "display": "ScreAtriRefNoasseDxNoCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/2f098f4b-32b3-449f-8499-2aa1d2ae3a38",
+      "display": "ScreNotatriNorefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/38a8eed5-6770-4cfd-9a80-db7ebc6eae80",
+      "display": "ScreAtriNorefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/bfcf0e79-0e2d-4055-a81e-42690b385d55",
+      "display": "NoscreNorefNoAsseDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/967b2aa8-3a80-47cf-aaa3-ca36989cff4b",
+      "display": "ScreAtriNorefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/705e91f0-1a81-423e-b10f-cc454911c456",
+      "display": "ScreNotatriRefAssNotmDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6264b944-bf0f-400b-be3e-e53debef1413",
+      "display": "ScreNotatriNorefAsseModNodxNocp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/af33cdca-9b62-4efe-bc7a-f4a1467881a9",
+      "display": "YearOverlap"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/3db3a354-6767-4573-8648-4989b3279f07",
+      "display": "NoscreNorefAsseModDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/45c517bd-7c89-4ef3-a4c4-e6c5b691e07b",
+      "display": "ScreNotatriRefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6a0de226-b310-4d7e-9ff2-83d0867db50a",
+      "display": "ScreNotatriNorefNoasseDxNcp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/5f3820d0-ae5d-4539-ba56-7f6c6b69a8f6",
+      "display": "yearoverlap2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/d8f79ef7-bf1a-48af-9f97-4d5a80ac3487",
+      "display": "ScreNotatriRefAsseNotmNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6e46a38f-e994-4aeb-85c8-5c65bf6263bc",
+      "display": "ScreNotatriRefNoasseNodxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/ca12e502-8b9e-40e3-a413-b4e153da495b",
+      "display": "ScreAtriRefNoasseDxNocp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/4745fe6f-769b-4e1d-aa55-28a3c65b26cd",
+      "display": "ScreAtriRefAsseModNodxCp2"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/593f1c58-7878-4cd9-881f-1a1c94ca975c",
+      "display": "NoscreRefNoasseNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/74fa34ad-aa24-4fcd-8d84-027233805fd3",
+      "display": "NoscreNorefAsseModNodxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/93181b96-ce51-4322-bbef-ce3de46db69e",
+      "display": "NoscreRefAsseNotmDxCp"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/6bb92354-f685-418b-a1e5-4f4716ea51fe",
+      "display": "ScreNotatriRefAsseModNodxCP"
+    }
+  }, {
+    "entity": {
+      "reference": "Patient/1018dfe0-8794-48d0-88a4-25d89f15e884",
+      "display": "ScreAtriRefNoasseNodxCp2"
+    }
+  } ]
+}

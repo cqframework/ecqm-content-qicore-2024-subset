@@ -2308,10 +2308,10 @@
       "display": "CMS"
     }
   } ],
-  "version": "Draft based on 0.1.000",
+  "version": "0.1.000",
   "name": "SevereObstetricComplicationsFHIR",
   "title": "Severe Obstetric ComplicationsFHIR",
-  "status": "draft",
+  "status": "active",
   "experimental": true,
   "date": "2024-09-09T19:21:02+00:00",
   "publisher": "The Joint Commission",
@@ -2322,7 +2322,21 @@
     } ]
   } ],
   "description": "Patients with severe obstetric complications that occur during the inpatient delivery hospitalization",
-  "purpose": "UNKNOWN",
+  "useContext": [{
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/extended-usage-context-type-codes",
+      "code": "setting",
+      "display": "Setting"
+    },
+    "valueCodeableConcept": {
+      "coding": [{
+        "system": "http://terminology.hl7.org/CodeSystem/intended-care-setting-codes",
+        "code": "hospital",
+        "display": "Hospital"
+      }]
+    }
+  }],
+ "purpose": "UNKNOWN",
   "usage": "In the case of multiple births, map the first delivery date/time (Baby A) as the delivery date/time for the encounter. This measure allows for 3 approaches to determine gestational age (GA) in the following order of precedence:\n\n1.  The GA is calculated using the American College of Obstetricians and Gynecologists ReVITALize guidelines.*\n2.  The GA is obtained from a discrete field in the electronic health record.  This option is only used when the calculated GA is not available.\n3.  The GA is based on ICD10 or SNOMED codes indicative of weeks gestation.  This option is only used when results from items #1 and #2 (see above) are not available.\n\nWherever gestational age is mentioned, relative to the delivery, the intent is to capture the last estimated gestational age prior to or at the time of delivery.  \n \n*ACOG ReVITALize Guidelines for Calculating Gestational Age (ACOG, 2014):      \n     \n                                Gestational Age = (280-(Estimated Due Date minus Reference Date))/7\n\n--Estimated Due Date (EDD): The best obstetrical EDD is determined by last menstrual period if confirmed by early ultrasound or no ultrasound performed, or early ultrasound if no known last menstrual period or the ultrasound is not consistent with last menstrual period, or known date of fertilization (e.g., assisted reproductive technology) \n--Reference Date is the date on which you are trying to determine gestational age. For purposes of this eCQM, Reference Date would be the Date of Delivery.   \n\nNote however the calculation may yield a non-whole number and gestational age should be rounded down to the nearest completed week. For example, an infant born on the 5th day of the 36th week (35 weeks and 5/7 days) is at a gestational age of 35 weeks, not 36 weeks.\n\nDefinition:\nFor this measure, specifications are modeled after the nationally available and adopted CDC definition for Severe Maternal Morbidity (SMM) with the addition of maternal mortality. At times, we may refer to the CDC indicators of morbidity as SMM, but the outcome of the measure, which includes morbidity and mortality, is referred to as Severe Obstetric Complications (SOC).\n\nNote: This measure will be stratified by race/ethnicity and payer after measure submission.\n\nThis eCQM is an episode-based measure. An episode is defined as each inpatient hospitalization or encounter that ends during the measurement period.\n\nThis FHIR-based measure has been derived from the QDM-based measure CMS1028v3.\n\nPlease refer to the HL7 QI-Core Implementation Guide (https://hl7.org/fhir/us/qicore/STU4.1.1/) for more information on QI-Core and mapping recommendations from QDM to QI-Core 4.1.1 (https://hl7.org/fhir/us/qicore/STU4.1.1/qdm-to-qicore.html).",
   "copyright": "Measure specifications are in the Public Domain.\n\nLOINC(R) copyright 2004-2023 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2023 International Health Terminology Standards Development Organisation. ICD-10 copyright 2023 World Health Organization. All Rights Reserved.",
   "effectivePeriod": {

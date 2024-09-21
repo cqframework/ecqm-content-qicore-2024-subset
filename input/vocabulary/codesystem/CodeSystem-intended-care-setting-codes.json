@@ -1,0 +1,33 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "intended-care-setting-codes",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"
+      ]
+    },
+    "url": "http://terminology.hl7.org/CodeSystem/intended-care-setting-codes",
+    "version": "1.0.0",
+    "name": "IntendedCareSettingCodes",
+    "title": "Intended Care Setting Codes",
+    "status": "active",
+    "experimental": false,
+    "publisher": "Clinical Quality Information Workgroup",
+    "description": "Codes that identify the intended care setting for a knowledge artifact such as a quality measure or decision support rule. The intended care setting characterizes the types of information that are expected to be available to be used by the logic, such as hospital, clinic, or laboratory.",
+    "caseSensitive": true,
+    "valueSet": "http://terminology.hl7.org/ValueSet/intended-care-setting",
+    "content": "complete",
+    "concept": [
+      {
+        "code": "hospital",
+        "display": "Hospital",
+        "definition": "Hospital systems containing detailed clinical information about the delivery of care in an inpatient setting."
+      },
+      {
+        "code": "clinic",
+        "display": "Clinic",
+        "definition": "Clinic systems containing detailed clinical information about the delivery of care in an outpatient setting."
+      }
+    ]
+  }
+  

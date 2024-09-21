@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "extended-usage-context-type-codes",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"
+      ]
+    },
+    "url": "http://terminology.hl7.org/CodeSystem/extended-usage-context-type-codes",
+    "version": "1.0.0",
+    "name": "ExtendedUsageContextTypeCodes",
+    "title": "Extended Usage Context Type Codes",
+    "status": "active",
+    "experimental": false,
+    "publisher": "Clinical Quality Information Workgroup",
+    "description": "Additional codes for identifying usage context types. These codes are intended to be added to the [UsageContextType](http://terminology.hl7.org/CodeSystem/usage-context-type) code system.",
+    "caseSensitive": true,
+    "valueSet": "http://terminology.hl7.org/ValueSet/extended-usage-context-type",
+    "content": "complete",
+    "concept": [
+      {
+        "code": "setting",
+        "display": "Setting",
+        "definition": "Intended setting characterizing the type of information expected to be available."
+      }
+    ]
+  }
+  

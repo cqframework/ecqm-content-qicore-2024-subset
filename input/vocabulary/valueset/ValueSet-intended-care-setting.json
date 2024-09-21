@@ -1,0 +1,25 @@
+{
+    "resourceType": "ValueSet",
+    "id": "intended-care-setting",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"
+      ]
+    },
+    "url": "http://terminology.hl7.org/ValueSet/intended-care-setting",
+    "version": "1.0.0",
+    "name": "IntendedCareSetting",
+    "title": "Intended Care Setting",
+    "status": "active",
+    "experimental": false,
+    "publisher": "Clinical Quality Information Workgroup",
+    "description": "Identifies the intended care setting for a knowledge artifact such as a quality measure or decision support rule. Characterizes the type of information that is expected to be available to the artifact, such as hospital, clinic, or laboratory.",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/intended-care-setting-codes"
+        }
+      ]
+    }
+  }
+  

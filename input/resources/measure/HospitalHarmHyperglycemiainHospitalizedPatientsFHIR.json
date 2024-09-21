@@ -877,10 +877,10 @@
       "display": "CMS"
     }
   } ],
-  "version": "Draft based on 0.1.000",
+  "version": "0.1.000",
   "name": "HospitalHarmHyperglycemiainHospitalizedPatientsFHIR",
   "title": "Hospital Harm - Severe HyperglycemiaFHIR",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2024-09-09T19:21:02+00:00",
   "publisher": "Centers for Medicare & Medicaid Services (CMS)",
@@ -891,6 +891,20 @@
     } ]
   } ],
   "description": "This measure assesses the number of inpatient hospital days for patients age 18 and older with a hyperglycemic event (harm) per the total qualifying inpatient hospital days for that encounter",
+  "useContext": [{
+    "code": {
+      "system": "http://terminology.hl7.org/CodeSystem/extended-usage-context-type-codes",
+      "code": "setting",
+      "display": "Setting"
+    },
+    "valueCodeableConcept": {
+      "coding": [{
+        "system": "http://terminology.hl7.org/CodeSystem/intended-care-setting-codes",
+        "code": "hospital",
+        "display": "Hospital"
+      }]
+    }
+  }],
   "purpose": "UNKNOWN",
   "usage": "The measure is using mg/dL as the unit of measurement for glucose results.\n\nWhen evaluating for days with a glucose level >300 mg/dL, the first 24-hour period after admission to the hospital is not evaluated to account for potentially poor glucose control outside of the hospital setting or that preceded the start of hospital care. The admission starts in the emergency department (ED) or observation when the transition between the ED encounter, observation encounter, and the inpatient encounter are within an hour or less of each other.\n\nThis measure evaluates the first 10 days of an eligible inpatient hospitalization in determining eligible days for the denominator and numerator (i.e., the length of stay is truncated to <=10 days when the length exceeds 10 days). Patients admitted for longer length of stays are more likely to have more complex medical conditions.  \n\nThe “Days in Hospitalization” logic within Measure Observation 1 (associated with the denominator), in conjunction with other logic, returns the day number (e.g., day 1 to day 10) for each day within the hospitalization period to determine the eligible hospital days (e.g., from day 2 to day 10). \n\nThe “Days in Hospitalization” logic within Measure Observation 2 (associated with the numerator), in conjunction with other logic, returns the day number (e.g., day 1 to day 10) for each day within the hospitalization period to determine the eligible hyperglycemic event days (e.g., from day 2 to day 10).\n\nSince the measure does not count any hyperglycemic events that occur in the first 24 hours, day 1 is not considered an eligible hospital day for the Measure Observations. Eligible days range from day 2 up to day 10.\n\nAlthough the measure does not count any hyperglycemic events that occur in the first 24 hours as a hyperglycemic event day in Measure Observation 2, the first 24 hours of the encounter is considered day 1. This is because if there was a day during the encounter where a glucose result is not found, the measure evaluates the two days preceding to see if each had a glucose value >=200 mg/dL. The measure allows the first 24 hours of the encounter, i.e., day 1, to be one of the preceding days.\n\nMultiple hyperglycemic events can occur during a ‘day’, but this is still considered one hyperglycemic event day.\n\nThe numerator returns the first eligible encounter that meets the qualifying criteria: an inpatient hospitalization with a hyperglycemic event. Only one numerator is counted per encounter. Note that the Numerator returns the encounters, not days, that meet the criteria.\n\nThe specimen source for the glucose test is blood, serum, plasma, or interstitial fluid, and can be obtained by a laboratory test, a Point of Care (POC) test, or a continuous glucose monitor (CGM). Glucose test results from urine specimens are not considered.\n\nThis eCQM is an episode-based measure. An episode is defined as each inpatient hospitalization or encounter that ends during the measurement period.\n\nThis FHIR-based measure has been derived from the QDM-based measure: CMS871v4.\n\nPlease refer to the HL7 QI-Core Implementation Guide(https://hl7.org/fhir/us/qicore/STU4.1.1/) for more information on QI-Core and mapping recommendations from QDM to QI-Core4.1.1 (https://hl7.org/fhir/us/qicore/STU4.1.1/qdm-to-qicore.html).",
   "copyright": "Limited proprietary coding is contained in the Measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. American Institutes for Research(R), formerly IMPAQ International, disclaims all liability for use or accuracy of any third party codes contained in the specifications.\n\nLOINC(R) copyright 2004-2023 Regenstrief Institute, Inc. This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2023 International Health Terminology Standards Development Organisation. ICD-10 copyright 2023 World Health Organization. All Rights Reserved.",

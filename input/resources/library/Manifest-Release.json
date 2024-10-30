@@ -108,15 +108,15 @@
       "reference": "#endpoints"
     }
   } ],
-  "url": "http://hl7.org/fhir/us/cqfmeasures/Library/ecqm-update-2024-05-02",
+  "url": "http://hl7.org/fhir/us/cqfmeasures/Library/ecqm-update-2024",
   "identifier": [ {
     "use": "official",
     "system": "http://example.org/fhir/cqi/ecqm/Library/Identifier",
-    "value": "eCQM Update 2024-05-02"
+    "value": "eCQM Update 2024"
   } ],
   "version": "1.0.0",
-  "name": "ECQMUpdate20240502",
-  "title": "eCQM Update 2024-05-02",
+  "name": "ECQMUpdate2024",
+  "title": "eCQM Update 2024",
   "status": "active",
   "experimental": true,
   "type": {

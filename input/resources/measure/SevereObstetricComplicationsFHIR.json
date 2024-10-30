@@ -2323,17 +2323,19 @@
   } ],
   "description": "Patients with severe obstetric complications that occur during the inpatient delivery hospitalization",
   "useContext": [{
-    "code": {
-      "system": "http://terminology.hl7.org/CodeSystem/extended-usage-context-type-codes",
-      "code": "setting",
-      "display": "Setting"
+    "code" : {
+      "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code" : "venue",
+      "display" : "Venue"
     },
-    "valueCodeableConcept": {
-      "coding": [{
-        "system": "http://terminology.hl7.org/CodeSystem/intended-care-setting-codes",
-        "code": "hospital",
-        "display": "Hospital"
-      }]
+    "valueCodeableConcept" : {
+      "coding" : [
+        {
+          "system" : "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/intended-venue-codes",
+          "code" : "eh",
+          "display" : "EH"
+        }
+      ]
     }
   }],
  "purpose": "UNKNOWN",

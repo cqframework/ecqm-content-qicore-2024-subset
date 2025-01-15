@@ -89,3 +89,32 @@ The CQF Tooling provides "refresh" tooling that performs the following functions
 * Refreshes generated content for each knowledge artifact (Library, Measure, PlanDefinition, ActivityDefinition) including parameters, dependencies, and effective data requirements
 
 Whenever changes are made to the CQL, Library, or Measure resources, run the `_refresh` command to refresh the implementation guide content with the new content, and then run `_genonce` to run the publication tooling on the implementation guide (the same process that the continuous integration build uses to publish the implementation guide when commits are made to this repository).
+
+## Building Terminology Packages
+
+The FHIR Validator has functionality to build terminology packages that include full expansions for all the value sets for a given ig, optionally including value sets from any dependencies. The following examples illustrate this usage:
+
+NOTE: These examples assume the validator-cli.jar is available in the input-cache folder (download it [here]())
+
+To build a tx-pack with expanded value sets for the QICore IG:
+
+```
+java -jar input-cache/validator_cli.jar -ig hl7.fhir.us.qicore#4.1.1 -tx-pack -output "hl7.fhir.us.qicore-tx-4.1.1.zip" -scope ig
+```
+
+To build a tx-pack with expanded value sets for the QICore IG and all dependencies:
+
+```
+java -jar input-cache/validator_cli.jar -ig hl7.fhir.us.qicore#4.1.1 -tx-pack -output "hl7.fhir.us.qicore-tx-all-4.1.1.zip" -scope all
+```
+
+To build a tx-pack for this subset IG, illustrating the creation of the value sets for a measure release and using the VSAC as the terminology server:
+
+```
+java -jar validator_cli.jar -ig input/ecqm-content-qicore-2024-subset.xml -tx-pack -output "ecqm-content-qicore-2024-subset-tx.zip" -scope ig -expansion-parameters "input/manifest.json" -tx https://uat-cts.nlm.nih.gov/fhir/r4
+```
+
+For additional documentation on this use case, see the following:
+
+* [FHIR Validator Documentation](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator)
+* [Terminology Pack Generation](https://confluence.hl7.org/pages/viewpage.action?pageId=35718580#UsingtheFHIRValidator-TerminologyPackGeneration)

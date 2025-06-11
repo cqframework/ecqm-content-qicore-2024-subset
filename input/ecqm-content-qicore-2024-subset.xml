@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
     <id value="gov.healthit.ecqi.ecqms.subset"/>
+    <extension url="http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters">
+      <valueReference>
+        <reference value="Parameters/manifest"/>
+      </valueReference>
+    </extension>
     <url value="http://ecqi.healthit.gov/ecqms/subset/ImplementationGuide/gov.healthit.ecqi.ecqms.subset"/>
     <version value="2024.0.0"/>
     <name value="eCQMContentQICoreSubset"/>
@@ -123,6 +128,10 @@
         </parameter>
         <parameter>
           <code value="path-resource" />
+          <value value="input/resources/parameters"/>
+        </parameter>
+        <parameter>
+          <code value="path-resource" />
           <value value="input/vocabulary/valueset"/>
         </parameter>
         <parameter>
@@ -161,5 +170,20 @@
            <code value="excludemap"/>
            <value value="true"/>
          </parameter>-->
+
+         <parameter>
+           <code value="path-expansion-params"/>
+           <value value="resources/parameters/manifest.json"/>
+         </parameter>
+
+         <parameter>
+           <code value="pin-canonicals"/>
+           <value value="pin-all"/>
+         </parameter>
+
+         <parameter>
+           <code value="pin-manifest"/>
+           <value value="manifest"/>
+          </parameter>
     </definition>
 </ImplementationGuide>
